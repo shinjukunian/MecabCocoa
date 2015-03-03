@@ -1,0 +1,27 @@
+//
+//  MecabTokenizer.h
+//  CabochaTest
+//
+//  Created by Morten Bertz on 3/2/15.
+//  Copyright (c) 2015 Morten Bertz. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface MecabTokenizer : NSObject
+
+typedef NS_ENUM(NSUInteger, dictionaryType){
+    ipadic,
+    jumandic,
+    unidic,
+    naist_jdic,
+    iOSTokenizer,
+};
+
+- (NSArray *)parseToNodeWithString:(NSString *)string;
+- (NSArray *)parseToNodeWithString:(NSString *)string withDictionary:(dictionaryType)dictionary;
+
+
+
+
+@end
