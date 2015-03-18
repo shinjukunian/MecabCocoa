@@ -98,6 +98,35 @@
 }
 
 
+
+-(NSString*)hiraganaStringWithDictionary:(dictionaryType)dictionary{
+    
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionary:dictionary];
+    NSMutableString *hiraganaString=[self mutableCopy];
+    NSRange lastTokenRange=NSMakeRange(0, self.length);
+    for (MecabToken *token in tokens) {
+        if ([token.surface scriptType]&japaneseScriptTypeKanji) {
+            NSRange range=[hiraganaString rangeOfString:token.surface options:NSLiteralSearch range:lastTokenRange];
+            NSString *furigana=[token reading];
+            if (range.location!=NSNotFound && furigana.length>0) {
+                
+                if ([furigana scriptType]&japaneseScriptTypeKatakana) {
+                    furigana=[furigana stringByTransliteratingKatakanaToHiragana];
+                }
+                else if (!([furigana scriptType]&japaneseScriptTypeHiragana) || !([furigana scriptType]&japaneseScriptTypeKatakana) || !([furigana scriptType]&japaneseScriptTypeKanji)){
+                    furigana=[furigana stringByTransliteratingRomajiToHiragana];
+                }
+                
+                [hiraganaString replaceCharactersInRange:range withString:furigana];
+                lastTokenRange=NSMakeRange(NSMaxRange(range), hiraganaString.length-NSMaxRange(range));
+            }
+        }
+        
+    }
+    
+    return hiraganaString.copy;
+}
+
 -(japaneseScriptType)scriptType{
     
     japaneseScriptType type=0;
