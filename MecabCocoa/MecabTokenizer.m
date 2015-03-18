@@ -94,7 +94,7 @@
         mecab = mecab_new2([[@"-d " stringByAppendingString:path] UTF8String]);
         
         if (mecab == NULL) {
-            //fprintf(stderr, "error in mecab_new2: %s\n", mecab_strerror(NULL));
+            fprintf(stderr, "error in mecab_new2: %s\n", mecab_strerror(NULL));
             
             return [self iOSTokenizerTokensForString:string];
         }
