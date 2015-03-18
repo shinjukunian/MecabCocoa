@@ -11,11 +11,12 @@
 @interface MecabTokenizer : NSObject
 
 typedef NS_ENUM(NSUInteger, dictionaryType){
+    iOSTokenizer=0,
     ipadic,
     jumandic,
     unidic,
     naist_jdic,
-    iOSTokenizer,
+    
 };
 
 - (NSArray *)parseToNodeWithString:(NSString *)string;

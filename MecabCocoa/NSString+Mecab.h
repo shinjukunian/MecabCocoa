@@ -29,6 +29,9 @@ typedef NS_OPTIONS(NSInteger, japaneseScriptType){
 -(NSDictionary*)furiganaReplacements;
 -(NSDictionary*)furiganaReplacementsForDictionary:(dictionaryType)dictionary;
 
+-(NSString*)hiraganaStringWithDictionary:(dictionaryType)dictionary;
+
+
 -(japaneseScriptType)scriptType;
 
 
