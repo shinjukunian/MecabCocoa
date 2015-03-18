@@ -28,13 +28,15 @@ typedef NS_OPTIONS(NSInteger, japaneseScriptType){
 
 -(NSDictionary*)furiganaReplacements;
 -(NSDictionary*)furiganaReplacementsForDictionary:(dictionaryType)dictionary;
+-(NSDictionary*)furiganaReplacementsForDictionaryatPath:(NSString*)path type:(dictionaryType)type;
+
+
 
 -(NSString*)hiraganaStringWithDictionary:(dictionaryType)dictionary;
+-(NSString*)hiraganaStringWithDictionaryatPath:(NSString*)path type:(dictionaryType)type;
 
 
 -(japaneseScriptType)scriptType;
-
-
 
 -(NSString*)stringByTransliteratingKatakanaToHiragana;
 -(NSString*)stringByTransliteratingHiraganaToKatakana;

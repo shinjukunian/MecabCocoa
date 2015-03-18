@@ -132,6 +132,47 @@
 }
 
 
+
+- (NSArray *)parseToNodeWithString:(NSString *)string withDictionaryAtLocation:(NSString*)path type:(dictionaryType)type{
+    
+    mecab = mecab_new2([[@"-d " stringByAppendingString:path] UTF8String]);
+    
+    if (mecab == NULL) {
+        fprintf(stderr, "error in mecab_new2: %s\n", mecab_strerror(NULL));
+        
+        return [self iOSTokenizerTokensForString:string];
+    }
+    const mecab_node_t *node;
+    const char *buf= [string cStringUsingEncoding:NSUTF8StringEncoding];
+    NSUInteger l= [string lengthOfBytesUsingEncoding:NSUTF8StringEncoding];
+    
+    node = mecab_sparse_tonode2(mecab, buf, l);
+    if (node == NULL) {
+        fprintf(stderr, "error\n");
+        
+        return nil;
+    }
+    
+    NSMutableArray *newNodes = [NSMutableArray array];
+    node = node->next;
+    for (; node->next != NULL; node = node->next) {
+        
+        MecabToken *newNode = [MecabToken new];
+        newNode.surface = [[NSString alloc] initWithBytes:node->surface length:node->length encoding:NSUTF8StringEncoding] ;
+        newNode.feature = [NSString stringWithCString:node->feature encoding:NSUTF8StringEncoding];
+        newNode.dictionary=type;
+        [newNodes addObject:newNode];
+        
+    }
+    
+    return [NSArray arrayWithArray:newNodes];
+    
+}
+
+
+
+
+
 -(NSArray*)iOSTokenizerTokensForString:(NSString*)string{
     
     NSMutableArray *tokens=[NSMutableArray array];

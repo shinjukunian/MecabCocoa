@@ -81,10 +81,6 @@
 		B797FE151AA55FD500968C95 /* MecabTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */; };
 		B797FE161AA55FD500968C95 /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B797FE171AA55FD500968C95 /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B797FE311AA560BC00968C95 /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2D1AA560BC00968C95 /* unidic */; };
-		B797FE321AA560BC00968C95 /* naist-jdic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2E1AA560BC00968C95 /* naist-jdic */; };
-		B797FE331AA560BC00968C95 /* jumandic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2F1AA560BC00968C95 /* jumandic */; };
-		B797FE341AA560BC00968C95 /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE301AA560BC00968C95 /* ipadic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,10 +176,6 @@
 		B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MecabTokenizer.m; sourceTree = "<group>"; };
 		B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Mecab.h"; sourceTree = "<group>"; };
 		B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MecabTokenizer.h; sourceTree = "<group>"; };
-		B797FE2D1AA560BC00968C95 /* unidic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = unidic; sourceTree = "<group>"; };
-		B797FE2E1AA560BC00968C95 /* naist-jdic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "naist-jdic"; sourceTree = "<group>"; };
-		B797FE2F1AA560BC00968C95 /* jumandic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = jumandic; sourceTree = "<group>"; };
-		B797FE301AA560BC00968C95 /* ipadic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipadic; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,10 +238,6 @@
 		B797FD661AA55F0200968C95 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B797FE2D1AA560BC00968C95 /* unidic */,
-				B797FE2E1AA560BC00968C95 /* naist-jdic */,
-				B797FE2F1AA560BC00968C95 /* jumandic */,
-				B797FE301AA560BC00968C95 /* ipadic */,
 				B797FD671AA55F0200968C95 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -472,15 +460,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B797FDCD1AA55F2E00968C95 /* COPYING in Resources */,
-				B797FE331AA560BC00968C95 /* jumandic in Resources */,
 				B797FDD91AA55F2E00968C95 /* GPL in Resources */,
 				B797FDC41AA55F2E00968C95 /* BSD in Resources */,
 				B797FDF01AA55F2E00968C95 /* NEWS in Resources */,
 				B797FDF31AA55F2E00968C95 /* README in Resources */,
 				B797FDE21AA55F2E00968C95 /* LGPL in Resources */,
-				B797FE321AA560BC00968C95 /* naist-jdic in Resources */,
-				B797FE341AA560BC00968C95 /* ipadic in Resources */,
-				B797FE311AA560BC00968C95 /* unidic in Resources */,
 				B797FDC51AA55F2E00968C95 /* ChangeLog in Resources */,
 				B797FDC31AA55F2E00968C95 /* AUTHORS in Resources */,
 			);
