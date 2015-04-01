@@ -2,11 +2,11 @@
 //  MecabCocoaTests.m
 //  MecabCocoaTests
 //
-//  Created by Morten Bertz on 3/3/15.
+//  Created by Morten Bertz on 4/1/15.
 //  Copyright (c) 2015 Morten Bertz. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
 @interface MecabCocoaTests : XCTestCase
