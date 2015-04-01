@@ -7,8 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B75CC7981ACB905200000EAD /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B75CC7971ACB905200000EAD /* MecabCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75CC79E1ACB905200000EAD /* MecabCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7931ACB905200000EAD /* MecabCocoa.framework */; };
+		B75CC7A51ACB905200000EAD /* MecabCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CC7A41ACB905200000EAD /* MecabCocoaTests.m */; };
+		B75CC7AC1ACB907100000EAD /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
+		B75CC7AD1ACB907600000EAD /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
+		B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; };
+		B75CC7AF1ACB907B00000EAD /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
+		B75CC7B01ACB907B00000EAD /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; };
+		B75CC7B11ACB907B00000EAD /* NSString+Mecab.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */; };
+		B75CC7B21ACB907B00000EAD /* MecabTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */; };
+		B75CC7B31ACB907B00000EAD /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; };
+		B75CC7B41ACB90CA00000EAD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
+		B75CC7B51ACB90D500000EAD /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
+		B75CC7B61ACB90D500000EAD /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
+		B75CC7B71ACB90D500000EAD /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = B797FD821AA55F2D00968C95 /* ChangeLog */; };
+		B75CC7B81ACB90D500000EAD /* char_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD831AA55F2D00968C95 /* char_property.cpp */; };
+		B75CC7B91ACB90D500000EAD /* char_property.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD841AA55F2D00968C95 /* char_property.h */; };
+		B75CC7BA1ACB90D500000EAD /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD851AA55F2D00968C95 /* common.h */; };
+		B75CC7BB1ACB90D500000EAD /* connector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD861AA55F2D00968C95 /* connector.cpp */; };
+		B75CC7BC1ACB90D500000EAD /* connector.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD871AA55F2D00968C95 /* connector.h */; };
+		B75CC7BD1ACB90D500000EAD /* context_id.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD881AA55F2D00968C95 /* context_id.cpp */; };
+		B75CC7BE1ACB90D500000EAD /* context_id.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD891AA55F2D00968C95 /* context_id.h */; };
+		B75CC7BF1ACB90D500000EAD /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = B797FD8A1AA55F2D00968C95 /* COPYING */; };
+		B75CC7C01ACB90D500000EAD /* darts.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD8B1AA55F2D00968C95 /* darts.h */; };
+		B75CC7C11ACB90D500000EAD /* dictionary_compiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8C1AA55F2D00968C95 /* dictionary_compiler.cpp */; };
+		B75CC7C21ACB90D500000EAD /* dictionary_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8D1AA55F2D00968C95 /* dictionary_generator.cpp */; };
+		B75CC7C31ACB90D500000EAD /* dictionary_rewriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8E1AA55F2D00968C95 /* dictionary_rewriter.cpp */; };
+		B75CC7C41ACB90D500000EAD /* dictionary_rewriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD8F1AA55F2D00968C95 /* dictionary_rewriter.h */; };
+		B75CC7C51ACB90D500000EAD /* dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD901AA55F2D00968C95 /* dictionary.cpp */; };
+		B75CC7C61ACB90D500000EAD /* dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD911AA55F2D00968C95 /* dictionary.h */; };
+		B75CC7C71ACB90D500000EAD /* eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD921AA55F2D00968C95 /* eval.cpp */; };
+		B75CC7C81ACB90D500000EAD /* feature_index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD931AA55F2D00968C95 /* feature_index.cpp */; };
+		B75CC7C91ACB90D500000EAD /* feature_index.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD941AA55F2D00968C95 /* feature_index.h */; };
+		B75CC7CA1ACB90D500000EAD /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD951AA55F2D00968C95 /* freelist.h */; };
+		B75CC7CB1ACB90D500000EAD /* GPL in Resources */ = {isa = PBXBuildFile; fileRef = B797FD961AA55F2D00968C95 /* GPL */; };
+		B75CC7CC1ACB90D500000EAD /* iconv_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD971AA55F2D00968C95 /* iconv_utils.cpp */; };
+		B75CC7CD1ACB90D500000EAD /* iconv_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD981AA55F2D00968C95 /* iconv_utils.h */; };
+		B75CC7CE1ACB90D500000EAD /* lbfgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD991AA55F2D00968C95 /* lbfgs.cpp */; };
+		B75CC7CF1ACB90D500000EAD /* lbfgs.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9A1AA55F2D00968C95 /* lbfgs.h */; };
+		B75CC7D01ACB90D500000EAD /* learner_node.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9B1AA55F2D00968C95 /* learner_node.h */; };
+		B75CC7D11ACB90D500000EAD /* learner_tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9C1AA55F2D00968C95 /* learner_tagger.cpp */; };
+		B75CC7D21ACB90D500000EAD /* learner_tagger.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9D1AA55F2D00968C95 /* learner_tagger.h */; };
+		B75CC7D31ACB90D500000EAD /* learner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9E1AA55F2D00968C95 /* learner.cpp */; };
+		B75CC7D41ACB90D500000EAD /* LGPL in Resources */ = {isa = PBXBuildFile; fileRef = B797FD9F1AA55F2D00968C95 /* LGPL */; };
+		B75CC7D51ACB90D500000EAD /* libmecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDA01AA55F2D00968C95 /* libmecab.cpp */; };
+		B75CC7DB1ACB90D500000EAD /* mecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDA61AA55F2D00968C95 /* mecab.cpp */; };
+		B75CC7DC1ACB90D500000EAD /* mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA71AA55F2D00968C95 /* mecab.h */; };
+		B75CC7DD1ACB90D500000EAD /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA81AA55F2D00968C95 /* mempool.h */; };
+		B75CC7DE1ACB90D500000EAD /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA91AA55F2D00968C95 /* mmap.h */; };
+		B75CC7DF1ACB90D500000EAD /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAA1AA55F2D00968C95 /* mutex.h */; };
+		B75CC7E01ACB90D500000EAD /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAB1AA55F2D00968C95 /* nbest_generator.cpp */; };
+		B75CC7E11ACB90D500000EAD /* nbest_generator.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAC1AA55F2D00968C95 /* nbest_generator.h */; };
+		B75CC7E21ACB90D500000EAD /* NEWS in Resources */ = {isa = PBXBuildFile; fileRef = B797FDAD1AA55F2D00968C95 /* NEWS */; };
+		B75CC7E31ACB90D500000EAD /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAE1AA55F2D00968C95 /* param.cpp */; };
+		B75CC7E41ACB90D500000EAD /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAF1AA55F2D00968C95 /* param.h */; };
+		B75CC7E51ACB90D500000EAD /* README in Resources */ = {isa = PBXBuildFile; fileRef = B797FDB01AA55F2D00968C95 /* README */; };
+		B75CC7E61ACB90D500000EAD /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB11AA55F2D00968C95 /* scoped_ptr.h */; };
+		B75CC7E71ACB90D500000EAD /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB21AA55F2D00968C95 /* stream_wrapper.h */; };
+		B75CC7E81ACB90D500000EAD /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB31AA55F2D00968C95 /* string_buffer.cpp */; };
+		B75CC7E91ACB90D500000EAD /* string_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB41AA55F2D00968C95 /* string_buffer.h */; };
+		B75CC7EA1ACB90D500000EAD /* tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB51AA55F2D00968C95 /* tagger.cpp */; };
+		B75CC7EB1ACB90D500000EAD /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB61AA55F2D00968C95 /* thread.h */; };
+		B75CC7EC1ACB90D500000EAD /* tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB71AA55F2D00968C95 /* tokenizer.cpp */; };
+		B75CC7ED1ACB90D500000EAD /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB81AA55F2D00968C95 /* tokenizer.h */; };
+		B75CC7EE1ACB90D500000EAD /* ucs.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB91AA55F2D00968C95 /* ucs.h */; };
+		B75CC7EF1ACB90D500000EAD /* ucstable.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBA1AA55F2D00968C95 /* ucstable.h */; };
+		B75CC7F01ACB90D500000EAD /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDBB1AA55F2D00968C95 /* utils.cpp */; };
+		B75CC7F11ACB90D500000EAD /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBC1AA55F2D00968C95 /* utils.h */; };
+		B75CC7F21ACB90D500000EAD /* viterbi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDBD1AA55F2D00968C95 /* viterbi.cpp */; };
+		B75CC7F31ACB90D500000EAD /* viterbi.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBE1AA55F2D00968C95 /* viterbi.h */; };
+		B75CC7F41ACB90D500000EAD /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
+		B75CC7F51ACB90D500000EAD /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
+		B75CC7F61ACB90D500000EAD /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
+		B75CC7F71ACB90DF00000EAD /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2D1AA560BC00968C95 /* unidic */; };
+		B75CC7F81ACB90DF00000EAD /* naist-jdic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2E1AA560BC00968C95 /* naist-jdic */; };
+		B75CC7F91ACB90DF00000EAD /* jumandic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2F1AA560BC00968C95 /* jumandic */; };
+		B75CC7FA1ACB90DF00000EAD /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE301AA560BC00968C95 /* ipadic */; };
+		B75CC7FC1ACB915300000EAD /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
 		B797FD691AA55F0200968C95 /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD681AA55F0200968C95 /* MecabCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B797FD6F1AA55F0300968C95 /* MecabCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FD631AA55F0200968C95 /* MecabCocoa.framework */; };
+		B797FD6F1AA55F0300968C95 /* MecabCocoaTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FD631AA55F0200968C95 /* MecabCocoaTouch.framework */; };
 		B797FD761AA55F0300968C95 /* MecabCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FD751AA55F0300968C95 /* MecabCocoaTests.m */; };
 		B797FDC21AA55F2E00968C95 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
 		B797FDC31AA55F2E00968C95 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
@@ -88,6 +166,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B75CC79F1ACB905200000EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B797FD5A1AA55F0200968C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75CC7921ACB905200000EAD;
+			remoteInfo = MecabCocoa;
+		};
 		B797FD701AA55F0300968C95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B797FD5A1AA55F0200968C95 /* Project object */;
@@ -98,7 +183,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B797FD631AA55F0200968C95 /* MecabCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75CC7931ACB905200000EAD /* MecabCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75CC7961ACB905200000EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75CC7971ACB905200000EAD /* MecabCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoa.h; sourceTree = "<group>"; };
+		B75CC79D1ACB905200000EAD /* MecabCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MecabCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75CC7A31ACB905200000EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75CC7A41ACB905200000EAD /* MecabCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MecabCocoaTests.m; sourceTree = "<group>"; };
+		B75CC7FB1ACB915300000EAD /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
+		B797FD631AA55F0200968C95 /* MecabCocoaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B797FD671AA55F0200968C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B797FD681AA55F0200968C95 /* MecabCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoa.h; sourceTree = "<group>"; };
 		B797FD6E1AA55F0300968C95 /* MecabCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MecabCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +279,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B75CC78F1ACB905200000EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CC7FC1ACB915300000EAD /* libiconv.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75CC79A1ACB905200000EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CC79E1ACB905200000EAD /* MecabCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B797FD5F1AA55F0200968C95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,18 +307,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B797FD6F1AA55F0300968C95 /* MecabCocoa.framework in Frameworks */,
+				B797FD6F1AA55F0300968C95 /* MecabCocoaTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B75CC7941ACB905200000EAD /* MecabCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				B75CC7FB1ACB915300000EAD /* libiconv.dylib */,
+				B75CC7971ACB905200000EAD /* MecabCocoa.h */,
+				B75CC7951ACB905200000EAD /* Supporting Files */,
+			);
+			path = MecabCocoa;
+			sourceTree = "<group>";
+		};
+		B75CC7951ACB905200000EAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75CC7961ACB905200000EAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B75CC7A11ACB905200000EAD /* MecabCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B75CC7A41ACB905200000EAD /* MecabCocoaTests.m */,
+				B75CC7A21ACB905200000EAD /* Supporting Files */,
+			);
+			path = MecabCocoaTests;
+			sourceTree = "<group>";
+		};
+		B75CC7A21ACB905200000EAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75CC7A31ACB905200000EAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B797FD591AA55F0200968C95 = {
 			isa = PBXGroup;
 			children = (
 				B797FD651AA55F0200968C95 /* MecabCocoa */,
 				B797FD721AA55F0300968C95 /* MecabCocoaTests */,
+				B75CC7941ACB905200000EAD /* MecabCocoa */,
+				B75CC7A11ACB905200000EAD /* MecabCocoaTests */,
 				B797FD641AA55F0200968C95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -218,8 +363,10 @@
 		B797FD641AA55F0200968C95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B797FD631AA55F0200968C95 /* MecabCocoa.framework */,
+				B797FD631AA55F0200968C95 /* MecabCocoaTouch.framework */,
 				B797FD6E1AA55F0300968C95 /* MecabCocoaTests.xctest */,
+				B75CC7931ACB905200000EAD /* MecabCocoa.framework */,
+				B75CC79D1ACB905200000EAD /* MecabCocoaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -349,6 +496,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		B75CC7901ACB905200000EAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CC7EE1ACB90D500000EAD /* ucs.h in Headers */,
+				B75CC7C61ACB90D500000EAD /* dictionary.h in Headers */,
+				B75CC7E11ACB90D500000EAD /* nbest_generator.h in Headers */,
+				B75CC7981ACB905200000EAD /* MecabCocoa.h in Headers */,
+				B75CC7CD1ACB90D500000EAD /* iconv_utils.h in Headers */,
+				B75CC7F41ACB90D500000EAD /* viterbisub.h in Headers */,
+				B75CC7B01ACB907B00000EAD /* NSString+Mecab.h in Headers */,
+				B75CC7F11ACB90D500000EAD /* utils.h in Headers */,
+				B75CC7E91ACB90D500000EAD /* string_buffer.h in Headers */,
+				B75CC7B41ACB90CA00000EAD /* config.h in Headers */,
+				B75CC7CF1ACB90D500000EAD /* lbfgs.h in Headers */,
+				B75CC7F61ACB90D500000EAD /* writer.h in Headers */,
+				B75CC7D21ACB90D500000EAD /* learner_tagger.h in Headers */,
+				B75CC7DE1ACB90D500000EAD /* mmap.h in Headers */,
+				B75CC7D01ACB90D500000EAD /* learner_node.h in Headers */,
+				B75CC7C91ACB90D500000EAD /* feature_index.h in Headers */,
+				B75CC7ED1ACB90D500000EAD /* tokenizer.h in Headers */,
+				B75CC7DC1ACB90D500000EAD /* mecab.h in Headers */,
+				B75CC7DF1ACB90D500000EAD /* mutex.h in Headers */,
+				B75CC7CA1ACB90D500000EAD /* freelist.h in Headers */,
+				B75CC7C01ACB90D500000EAD /* darts.h in Headers */,
+				B75CC7B31ACB907B00000EAD /* MecabTokenizer.h in Headers */,
+				B75CC7EF1ACB90D500000EAD /* ucstable.h in Headers */,
+				B75CC7BC1ACB90D500000EAD /* connector.h in Headers */,
+				B75CC7B91ACB90D500000EAD /* char_property.h in Headers */,
+				B75CC7AC1ACB907100000EAD /* NSCharacterSet+Japanese.h in Headers */,
+				B75CC7E71ACB90D500000EAD /* stream_wrapper.h in Headers */,
+				B75CC7C41ACB90D500000EAD /* dictionary_rewriter.h in Headers */,
+				B75CC7F31ACB90D500000EAD /* viterbi.h in Headers */,
+				B75CC7BE1ACB90D500000EAD /* context_id.h in Headers */,
+				B75CC7E41ACB90D500000EAD /* param.h in Headers */,
+				B75CC7DD1ACB90D500000EAD /* mempool.h in Headers */,
+				B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */,
+				B75CC7BA1ACB90D500000EAD /* common.h in Headers */,
+				B75CC7EB1ACB90D500000EAD /* thread.h in Headers */,
+				B75CC7E61ACB90D500000EAD /* scoped_ptr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B797FD601AA55F0200968C95 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,9 +585,45 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B797FD621AA55F0200968C95 /* MecabCocoa */ = {
+		B75CC7921ACB905200000EAD /* MecabCocoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B797FD791AA55F0300968C95 /* Build configuration list for PBXNativeTarget "MecabCocoa" */;
+			buildConfigurationList = B75CC7A61ACB905200000EAD /* Build configuration list for PBXNativeTarget "MecabCocoa" */;
+			buildPhases = (
+				B75CC78E1ACB905200000EAD /* Sources */,
+				B75CC78F1ACB905200000EAD /* Frameworks */,
+				B75CC7901ACB905200000EAD /* Headers */,
+				B75CC7911ACB905200000EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MecabCocoa;
+			productName = MecabCocoa;
+			productReference = B75CC7931ACB905200000EAD /* MecabCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B75CC79C1ACB905200000EAD /* MecabCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75CC7A91ACB905200000EAD /* Build configuration list for PBXNativeTarget "MecabCocoaTests" */;
+			buildPhases = (
+				B75CC7991ACB905200000EAD /* Sources */,
+				B75CC79A1ACB905200000EAD /* Frameworks */,
+				B75CC79B1ACB905200000EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75CC7A01ACB905200000EAD /* PBXTargetDependency */,
+			);
+			name = MecabCocoaTests;
+			productName = MecabCocoaTests;
+			productReference = B75CC79D1ACB905200000EAD /* MecabCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B797FD621AA55F0200968C95 /* MecabCocoaTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B797FD791AA55F0300968C95 /* Build configuration list for PBXNativeTarget "MecabCocoaTouch" */;
 			buildPhases = (
 				B797FD5E1AA55F0200968C95 /* Sources */,
 				B797FD5F1AA55F0200968C95 /* Frameworks */,
@@ -408,9 +634,9 @@
 			);
 			dependencies = (
 			);
-			name = MecabCocoa;
+			name = MecabCocoaTouch;
 			productName = MecabCocoa;
-			productReference = B797FD631AA55F0200968C95 /* MecabCocoa.framework */;
+			productReference = B797FD631AA55F0200968C95 /* MecabCocoaTouch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B797FD6D1AA55F0300968C95 /* MecabCocoaTests */ = {
@@ -440,6 +666,12 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Morten Bertz";
 				TargetAttributes = {
+					B75CC7921ACB905200000EAD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B75CC79C1ACB905200000EAD = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					B797FD621AA55F0200968C95 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -460,13 +692,41 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B797FD621AA55F0200968C95 /* MecabCocoa */,
+				B797FD621AA55F0200968C95 /* MecabCocoaTouch */,
 				B797FD6D1AA55F0300968C95 /* MecabCocoaTests */,
+				B75CC7921ACB905200000EAD /* MecabCocoa */,
+				B75CC79C1ACB905200000EAD /* MecabCocoaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B75CC7911ACB905200000EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CC7BF1ACB90D500000EAD /* COPYING in Resources */,
+				B75CC7F91ACB90DF00000EAD /* jumandic in Resources */,
+				B75CC7CB1ACB90D500000EAD /* GPL in Resources */,
+				B75CC7B61ACB90D500000EAD /* BSD in Resources */,
+				B75CC7E21ACB90D500000EAD /* NEWS in Resources */,
+				B75CC7E51ACB90D500000EAD /* README in Resources */,
+				B75CC7D41ACB90D500000EAD /* LGPL in Resources */,
+				B75CC7F81ACB90DF00000EAD /* naist-jdic in Resources */,
+				B75CC7FA1ACB90DF00000EAD /* ipadic in Resources */,
+				B75CC7F71ACB90DF00000EAD /* unidic in Resources */,
+				B75CC7B71ACB90D500000EAD /* ChangeLog in Resources */,
+				B75CC7B51ACB90D500000EAD /* AUTHORS in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75CC79B1ACB905200000EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B797FD611AA55F0200968C95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,6 +756,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B75CC78E1ACB905200000EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CC7E81ACB90D500000EAD /* string_buffer.cpp in Sources */,
+				B75CC7E01ACB90D500000EAD /* nbest_generator.cpp in Sources */,
+				B75CC7D31ACB90D500000EAD /* learner.cpp in Sources */,
+				B75CC7C11ACB90D500000EAD /* dictionary_compiler.cpp in Sources */,
+				B75CC7EC1ACB90D500000EAD /* tokenizer.cpp in Sources */,
+				B75CC7AF1ACB907B00000EAD /* MecabToken.m in Sources */,
+				B75CC7BB1ACB90D500000EAD /* connector.cpp in Sources */,
+				B75CC7CC1ACB90D500000EAD /* iconv_utils.cpp in Sources */,
+				B75CC7C31ACB90D500000EAD /* dictionary_rewriter.cpp in Sources */,
+				B75CC7D11ACB90D500000EAD /* learner_tagger.cpp in Sources */,
+				B75CC7CE1ACB90D500000EAD /* lbfgs.cpp in Sources */,
+				B75CC7B11ACB907B00000EAD /* NSString+Mecab.m in Sources */,
+				B75CC7C81ACB90D500000EAD /* feature_index.cpp in Sources */,
+				B75CC7C71ACB90D500000EAD /* eval.cpp in Sources */,
+				B75CC7B21ACB907B00000EAD /* MecabTokenizer.m in Sources */,
+				B75CC7BD1ACB90D500000EAD /* context_id.cpp in Sources */,
+				B75CC7C51ACB90D500000EAD /* dictionary.cpp in Sources */,
+				B75CC7EA1ACB90D500000EAD /* tagger.cpp in Sources */,
+				B75CC7D51ACB90D500000EAD /* libmecab.cpp in Sources */,
+				B75CC7F01ACB90D500000EAD /* utils.cpp in Sources */,
+				B75CC7F21ACB90D500000EAD /* viterbi.cpp in Sources */,
+				B75CC7C21ACB90D500000EAD /* dictionary_generator.cpp in Sources */,
+				B75CC7F51ACB90D500000EAD /* writer.cpp in Sources */,
+				B75CC7DB1ACB90D500000EAD /* mecab.cpp in Sources */,
+				B75CC7B81ACB90D500000EAD /* char_property.cpp in Sources */,
+				B75CC7AD1ACB907600000EAD /* NSCharacterSet+Japanese.m in Sources */,
+				B75CC7E31ACB90D500000EAD /* param.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75CC7991ACB905200000EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CC7A51ACB905200000EAD /* MecabCocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B797FD5E1AA55F0200968C95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -541,14 +843,103 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B75CC7A01ACB905200000EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75CC7921ACB905200000EAD /* MecabCocoa */;
+			targetProxy = B75CC79F1ACB905200000EAD /* PBXContainerItemProxy */;
+		};
 		B797FD711AA55F0300968C95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B797FD621AA55F0200968C95 /* MecabCocoa */;
+			target = B797FD621AA55F0200968C95 /* MecabCocoaTouch */;
 			targetProxy = B797FD701AA55F0300968C95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		B75CC7A71ACB905200000EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				INFOPLIST_FILE = MecabCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B75CC7A81ACB905200000EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				INFOPLIST_FILE = MecabCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B75CC7AA1ACB905200000EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MecabCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B75CC7AB1ACB905200000EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MecabCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		B797FD771AA55F0300968C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -704,6 +1095,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B75CC7A61ACB905200000EAD /* Build configuration list for PBXNativeTarget "MecabCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75CC7A71ACB905200000EAD /* Debug */,
+				B75CC7A81ACB905200000EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B75CC7A91ACB905200000EAD /* Build configuration list for PBXNativeTarget "MecabCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75CC7AA1ACB905200000EAD /* Debug */,
+				B75CC7AB1ACB905200000EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B797FD5D1AA55F0200968C95 /* Build configuration list for PBXProject "MecabCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -713,7 +1120,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B797FD791AA55F0300968C95 /* Build configuration list for PBXNativeTarget "MecabCocoa" */ = {
+		B797FD791AA55F0300968C95 /* Build configuration list for PBXNativeTarget "MecabCocoaTouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B797FD7A1AA55F0300968C95 /* Debug */,
