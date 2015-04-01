@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B797FD621AA55F0200968C95"
+               BlueprintIdentifier = "B75CC7921ACB905200000EAD"
                BuildableName = "MecabCocoa.framework"
                BlueprintName = "MecabCocoa"
                ReferencedContainer = "container:MecabCocoa.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B797FD6D1AA55F0300968C95"
+               BlueprintIdentifier = "B75CC79C1ACB905200000EAD"
                BuildableName = "MecabCocoaTests.xctest"
                BlueprintName = "MecabCocoaTests"
                ReferencedContainer = "container:MecabCocoa.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B797FD6D1AA55F0300968C95"
+               BlueprintIdentifier = "B75CC79C1ACB905200000EAD"
                BuildableName = "MecabCocoaTests.xctest"
                BlueprintName = "MecabCocoaTests"
                ReferencedContainer = "container:MecabCocoa.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B797FD621AA55F0200968C95"
+            BlueprintIdentifier = "B75CC7921ACB905200000EAD"
             BuildableName = "MecabCocoa.framework"
             BlueprintName = "MecabCocoa"
             ReferencedContainer = "container:MecabCocoa.xcodeproj">
@@ -75,7 +75,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B797FD621AA55F0200968C95"
+            BlueprintIdentifier = "B75CC7921ACB905200000EAD"
             BuildableName = "MecabCocoa.framework"
             BlueprintName = "MecabCocoa"
             ReferencedContainer = "container:MecabCocoa.xcodeproj">
@@ -93,7 +93,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B797FD621AA55F0200968C95"
+            BlueprintIdentifier = "B75CC7921ACB905200000EAD"
             BuildableName = "MecabCocoa.framework"
             BlueprintName = "MecabCocoa"
             ReferencedContainer = "container:MecabCocoa.xcodeproj">

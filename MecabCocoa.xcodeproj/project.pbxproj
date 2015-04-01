@@ -80,10 +80,6 @@
 		B75CC7F41ACB90D500000EAD /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
 		B75CC7F51ACB90D500000EAD /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B75CC7F61ACB90D500000EAD /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
-		B75CC7F71ACB90DF00000EAD /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2D1AA560BC00968C95 /* unidic */; };
-		B75CC7F81ACB90DF00000EAD /* naist-jdic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2E1AA560BC00968C95 /* naist-jdic */; };
-		B75CC7F91ACB90DF00000EAD /* jumandic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE2F1AA560BC00968C95 /* jumandic */; };
-		B75CC7FA1ACB90DF00000EAD /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B797FE301AA560BC00968C95 /* ipadic */; };
 		B75CC7FC1ACB915300000EAD /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
 		B797FD691AA55F0200968C95 /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD681AA55F0200968C95 /* MecabCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B797FD6F1AA55F0300968C95 /* MecabCocoaTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FD631AA55F0200968C95 /* MecabCocoaTouch.framework */; };
@@ -694,15 +690,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75CC7BF1ACB90D500000EAD /* COPYING in Resources */,
-				B75CC7F91ACB90DF00000EAD /* jumandic in Resources */,
 				B75CC7CB1ACB90D500000EAD /* GPL in Resources */,
 				B75CC7B61ACB90D500000EAD /* BSD in Resources */,
 				B75CC7E21ACB90D500000EAD /* NEWS in Resources */,
 				B75CC7E51ACB90D500000EAD /* README in Resources */,
 				B75CC7D41ACB90D500000EAD /* LGPL in Resources */,
-				B75CC7F81ACB90DF00000EAD /* naist-jdic in Resources */,
-				B75CC7FA1ACB90DF00000EAD /* ipadic in Resources */,
-				B75CC7F71ACB90DF00000EAD /* unidic in Resources */,
 				B75CC7B71ACB90D500000EAD /* ChangeLog in Resources */,
 				B75CC7B51ACB90D500000EAD /* AUTHORS in Resources */,
 			);
@@ -1096,6 +1088,7 @@
 				B75CC7A81ACB905200000EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B75CC7A91ACB905200000EAD /* Build configuration list for PBXNativeTarget "MecabCocoaTests" */ = {
 			isa = XCConfigurationList;
@@ -1104,6 +1097,7 @@
 				B75CC7AB1ACB905200000EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B797FD5D1AA55F0200968C95 /* Build configuration list for PBXProject "MecabCocoa" */ = {
 			isa = XCConfigurationList;
