@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Morten Bertz. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+
 #import <XCTest/XCTest.h>
 
 @interface MecabCocoaTests : XCTestCase
