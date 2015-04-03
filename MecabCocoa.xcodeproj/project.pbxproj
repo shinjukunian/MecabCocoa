@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B723103E1ACEE04E00DECF0B /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B723103D1ACEE04E00DECF0B /* MecabCocoa.h */; };
+		B72310441ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
+		B72310451ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
+		B72310461ACEE0BD00DECF0B /* naist-jdic in Resources */ = {isa = PBXBuildFile; fileRef = B72310411ACEE0BD00DECF0B /* naist-jdic */; };
+		B72310471ACEE0BD00DECF0B /* naist-jdic in Resources */ = {isa = PBXBuildFile; fileRef = B72310411ACEE0BD00DECF0B /* naist-jdic */; };
+		B72310481ACEE0BD00DECF0B /* jumandic in Resources */ = {isa = PBXBuildFile; fileRef = B72310421ACEE0BD00DECF0B /* jumandic */; };
+		B72310491ACEE0BD00DECF0B /* jumandic in Resources */ = {isa = PBXBuildFile; fileRef = B72310421ACEE0BD00DECF0B /* jumandic */; };
+		B723104A1ACEE0BD00DECF0B /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B72310431ACEE0BD00DECF0B /* ipadic */; };
+		B723104B1ACEE0BD00DECF0B /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B72310431ACEE0BD00DECF0B /* ipadic */; };
 		B73B06BC1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B73B06BB1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B73B06D11ACEDD68009E07E5 /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
 		B73B06D21ACEDD68009E07E5 /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
@@ -79,7 +88,6 @@
 		B73B071A1ACEDDEB009E07E5 /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B73B071B1ACEDDEB009E07E5 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
 		B73B071C1ACEDE58009E07E5 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FE061AA55F8100968C95 /* libiconv.dylib */; };
-		B75CC7981ACB905200000EAD /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B75CC7971ACB905200000EAD /* MecabCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7AC1ACB907100000EAD /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
 		B75CC7AD1ACB907600000EAD /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; };
@@ -226,12 +234,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B723103D1ACEE04E00DECF0B /* MecabCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MecabCocoa.h; sourceTree = "<group>"; };
+		B72310401ACEE0BD00DECF0B /* unidic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = unidic; sourceTree = "<group>"; };
+		B72310411ACEE0BD00DECF0B /* naist-jdic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "naist-jdic"; sourceTree = "<group>"; };
+		B72310421ACEE0BD00DECF0B /* jumandic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = jumandic; sourceTree = "<group>"; };
+		B72310431ACEE0BD00DECF0B /* ipadic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipadic; sourceTree = "<group>"; };
 		B73B06B71ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouchNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73B06BA1ACEDD4C009E07E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73B06BB1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaTouchNoDictionaries.h; sourceTree = "<group>"; };
 		B75CC7931ACB905200000EAD /* MecabCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75CC7961ACB905200000EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B75CC7971ACB905200000EAD /* MecabCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoa.h; sourceTree = "<group>"; };
 		B75CC7FB1ACB915300000EAD /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		B797FD631AA55F0200968C95 /* MecabCocoaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B797FD671AA55F0200968C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -342,6 +354,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B723103F1ACEE09C00DECF0B /* Dictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				B72310401ACEE0BD00DECF0B /* unidic */,
+				B72310411ACEE0BD00DECF0B /* naist-jdic */,
+				B72310421ACEE0BD00DECF0B /* jumandic */,
+				B72310431ACEE0BD00DECF0B /* ipadic */,
+			);
+			name = Dictionaries;
+			sourceTree = "<group>";
+		};
 		B73B06B81ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,8 +385,8 @@
 		B75CC7941ACB905200000EAD /* MecabCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				B723103D1ACEE04E00DECF0B /* MecabCocoa.h */,
 				B75CC7FB1ACB915300000EAD /* libiconv.dylib */,
-				B75CC7971ACB905200000EAD /* MecabCocoa.h */,
 				B75CC7951ACB905200000EAD /* Supporting Files */,
 			);
 			path = MecabCocoa;
@@ -380,7 +403,8 @@
 		B797FD591AA55F0200968C95 = {
 			isa = PBXGroup;
 			children = (
-				B797FD651AA55F0200968C95 /* MecabCocoa */,
+				B723103F1ACEE09C00DECF0B /* Dictionaries */,
+				B797FD651AA55F0200968C95 /* MecabCocoaTouch */,
 				B75CC7941ACB905200000EAD /* MecabCocoa */,
 				B73B06B81ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries */,
 				B797FD641AA55F0200968C95 /* Products */,
@@ -397,7 +421,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B797FD651AA55F0200968C95 /* MecabCocoa */ = {
+		B797FD651AA55F0200968C95 /* MecabCocoaTouch */ = {
 			isa = PBXGroup;
 			children = (
 				B797FD681AA55F0200968C95 /* MecabCocoaTouch.h */,
@@ -413,6 +437,7 @@
 				B797FE051AA55F3300968C95 /* src */,
 				B797FD661AA55F0200968C95 /* Supporting Files */,
 			);
+			name = MecabCocoaTouch;
 			path = MecabCocoa;
 			sourceTree = "<group>";
 		};
@@ -551,7 +576,6 @@
 				B75CC7EE1ACB90D500000EAD /* ucs.h in Headers */,
 				B75CC7C61ACB90D500000EAD /* dictionary.h in Headers */,
 				B75CC7E11ACB90D500000EAD /* nbest_generator.h in Headers */,
-				B75CC7981ACB905200000EAD /* MecabCocoa.h in Headers */,
 				B75CC7CD1ACB90D500000EAD /* iconv_utils.h in Headers */,
 				B75CC7F41ACB90D500000EAD /* viterbisub.h in Headers */,
 				B75CC7B01ACB907B00000EAD /* NSString+Mecab.h in Headers */,
@@ -580,6 +604,7 @@
 				B75CC7BE1ACB90D500000EAD /* context_id.h in Headers */,
 				B75CC7E41ACB90D500000EAD /* param.h in Headers */,
 				B75CC7DD1ACB90D500000EAD /* mempool.h in Headers */,
+				B723103E1ACEE04E00DECF0B /* MecabCocoa.h in Headers */,
 				B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */,
 				B75CC7BA1ACB90D500000EAD /* common.h in Headers */,
 				B75CC7EB1ACB90D500000EAD /* thread.h in Headers */,
@@ -747,11 +772,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75CC7BF1ACB90D500000EAD /* COPYING in Resources */,
+				B72310491ACEE0BD00DECF0B /* jumandic in Resources */,
 				B75CC7CB1ACB90D500000EAD /* GPL in Resources */,
 				B75CC7B61ACB90D500000EAD /* BSD in Resources */,
 				B75CC7E21ACB90D500000EAD /* NEWS in Resources */,
 				B75CC7E51ACB90D500000EAD /* README in Resources */,
 				B75CC7D41ACB90D500000EAD /* LGPL in Resources */,
+				B72310471ACEE0BD00DECF0B /* naist-jdic in Resources */,
+				B723104B1ACEE0BD00DECF0B /* ipadic in Resources */,
+				B72310451ACEE0BD00DECF0B /* unidic in Resources */,
 				B75CC7B71ACB90D500000EAD /* ChangeLog in Resources */,
 				B75CC7B51ACB90D500000EAD /* AUTHORS in Resources */,
 			);
@@ -762,11 +791,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B797FDCD1AA55F2E00968C95 /* COPYING in Resources */,
+				B72310481ACEE0BD00DECF0B /* jumandic in Resources */,
 				B797FDD91AA55F2E00968C95 /* GPL in Resources */,
 				B797FDC41AA55F2E00968C95 /* BSD in Resources */,
 				B797FDF01AA55F2E00968C95 /* NEWS in Resources */,
 				B797FDF31AA55F2E00968C95 /* README in Resources */,
 				B797FDE21AA55F2E00968C95 /* LGPL in Resources */,
+				B72310461ACEE0BD00DECF0B /* naist-jdic in Resources */,
+				B723104A1ACEE0BD00DECF0B /* ipadic in Resources */,
+				B72310441ACEE0BD00DECF0B /* unidic in Resources */,
 				B797FDC51AA55F2E00968C95 /* ChangeLog in Resources */,
 				B797FDC31AA55F2E00968C95 /* AUTHORS in Resources */,
 			);
@@ -1103,6 +1136,7 @@
 				B73B06CC1ACEDD4C009E07E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B75CC7A61ACB905200000EAD /* Build configuration list for PBXNativeTarget "MecabCocoa" */ = {
 			isa = XCConfigurationList;
