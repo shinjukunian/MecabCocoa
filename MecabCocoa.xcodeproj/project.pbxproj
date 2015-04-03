@@ -19,12 +19,12 @@
 		B73B06BC1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B73B06BB1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B73B06D11ACEDD68009E07E5 /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
 		B73B06D21ACEDD68009E07E5 /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
-		B73B06D31ACEDD68009E07E5 /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; };
+		B73B06D31ACEDD68009E07E5 /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B73B06D41ACEDD68009E07E5 /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
-		B73B06D51ACEDD68009E07E5 /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; };
+		B73B06D51ACEDD68009E07E5 /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B73B06D61ACEDD68009E07E5 /* NSString+Mecab.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */; };
 		B73B06D71ACEDD68009E07E5 /* MecabTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */; };
-		B73B06D81ACEDD68009E07E5 /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; };
+		B73B06D81ACEDD68009E07E5 /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B73B06D91ACEDDEB009E07E5 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
 		B73B06DA1ACEDDEB009E07E5 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
 		B73B06DB1ACEDDEB009E07E5 /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
@@ -431,8 +431,8 @@
 				B797FE0A1AA55FD500968C95 /* MecabToken.m */,
 				B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */,
 				B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */,
-				B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */,
 				B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */,
+				B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */,
 				B797FE061AA55F8100968C95 /* libiconv.dylib */,
 				B797FE051AA55F3300968C95 /* src */,
 				B797FD661AA55F0200968C95 /* Supporting Files */,
