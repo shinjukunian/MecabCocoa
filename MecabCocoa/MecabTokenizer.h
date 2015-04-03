@@ -24,6 +24,4 @@ typedef NS_ENUM(NSUInteger, dictionaryType){
 
 - (NSArray *)parseToNodeWithString:(NSString *)string withDictionaryAtLocation:(NSString*)path type:(dictionaryType)type;
 
-
-
 @end
