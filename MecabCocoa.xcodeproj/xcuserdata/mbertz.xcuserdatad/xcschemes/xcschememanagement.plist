@@ -14,9 +14,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MecabCocoaTouchNoDictionaries.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B73B06B61ACEDD4C009E07E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B73B06C01ACEDD4C009E07E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B75CC7921ACB905200000EAD</key>
 		<dict>
 			<key>primary</key>
