@@ -11,6 +11,7 @@
 @interface  NSString (NSString_Mecab)
 
 typedef NS_OPTIONS(NSInteger, japaneseScriptType){
+    japaneseScriptTypeNoJapaneseScript=0,
     japaneseScriptTypeHiragana = 1 << 0,
     japaneseScriptTypeKatakana = 1 << 1,
     japaneseScriptTypeKanji = 1 << 2,
