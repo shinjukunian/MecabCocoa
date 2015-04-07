@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Morten Bertz. All rights reserved.
 //
 
-
+#import <Foundation/Foundation.h>
 
 //! Project version number for MecabCocoa.
 FOUNDATION_EXPORT double MecabCocoaVersionNumber;
