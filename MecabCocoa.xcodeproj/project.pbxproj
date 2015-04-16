@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B723103E1ACEE04E00DECF0B /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B723103D1ACEE04E00DECF0B /* MecabCocoa.h */; };
+		B723103E1ACEE04E00DECF0B /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B723103D1ACEE04E00DECF0B /* MecabCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B72310441ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
 		B72310451ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
 		B72310461ACEE0BD00DECF0B /* naist-jdic in Resources */ = {isa = PBXBuildFile; fileRef = B72310411ACEE0BD00DECF0B /* naist-jdic */; };
@@ -90,12 +90,12 @@
 		B73B071C1ACEDE58009E07E5 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FE061AA55F8100968C95 /* libiconv.dylib */; };
 		B75CC7AC1ACB907100000EAD /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
 		B75CC7AD1ACB907600000EAD /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
-		B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; };
+		B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7AF1ACB907B00000EAD /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
-		B75CC7B01ACB907B00000EAD /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; };
+		B75CC7B01ACB907B00000EAD /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7B11ACB907B00000EAD /* NSString+Mecab.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */; };
 		B75CC7B21ACB907B00000EAD /* MecabTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */; };
-		B75CC7B31ACB907B00000EAD /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; };
+		B75CC7B31ACB907B00000EAD /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7B41ACB90CA00000EAD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
 		B75CC7B51ACB90D500000EAD /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
 		B75CC7B61ACB90D500000EAD /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
