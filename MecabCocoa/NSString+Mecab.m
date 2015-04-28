@@ -203,12 +203,12 @@
             for (NSValue *range in furigana) {
                 NSString *hiraganaString=furigana[range];
                 if (hiraganaString.scriptType &japaneseScriptTypeHiragana) {
-                    NSString *katakanaString=[self stringByTransliteratingHiraganaToKatakana];
+                    NSString *katakanaString=[hiraganaString stringByTransliteratingHiraganaToKatakana];
                     [temp addEntriesFromDictionary:@{range:katakanaString}];
                 }
-                return temp.copy;
             }
-            
+            return temp.copy;
+
             break;
         }
         case transliterationRomaji:{
@@ -216,12 +216,12 @@
             for (NSValue *range in furigana) {
                 NSString *hiraganaString=furigana[range];
                 if (hiraganaString.scriptType &japaneseScriptTypeHiragana) {
-                    NSString *katakanaString=[self stringByTransliteratingHiranagaToRomaji];
+                    NSString *katakanaString=[hiraganaString stringByTransliteratingHiranagaToRomaji];
                     [temp addEntriesFromDictionary:@{range:katakanaString}];
                 }
-                return temp.copy;
             }
-            
+            return temp.copy;
+
             break;
         }
         default:
