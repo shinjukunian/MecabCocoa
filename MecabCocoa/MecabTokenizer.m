@@ -164,7 +164,7 @@
         [newNodes addObject:newNode];
         
     }
-    
+   
     return [NSArray arrayWithArray:newNodes];
     
 }
@@ -176,9 +176,9 @@
     
     NSLocale *locale= [[NSLocale alloc]initWithLocaleIdentifier:@"ja_JP"];
     CFLocaleRef loc=(__bridge CFLocaleRef)(locale);
-    
+    CFStringRef stringref=(__bridge CFStringRef)(string);
     CFStringTokenizerRef tok = CFStringTokenizerCreate(NULL,
-                                                       (CFStringRef)string,
+                                                       stringref,
                                                        CFRangeMake(0,string.length),
                                                        kCFStringTokenizerUnitWordBoundary,
                                                        loc);
@@ -196,6 +196,7 @@
             CFTypeRef cTypeRef =  CFStringTokenizerCopyCurrentTokenAttribute(tok,kCFStringTokenizerAttributeLatinTranscription);
             NSString *latin=[NSString stringWithFormat:@"%@",cTypeRef];
             [token setFeature:latin];
+            CFRelease(cTypeRef);
         }
        
         [tokens addObject:token];
