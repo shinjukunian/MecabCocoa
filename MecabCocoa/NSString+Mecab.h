@@ -18,6 +18,16 @@ typedef NS_OPTIONS(NSInteger, japaneseScriptType){
   
 };
 
+
+typedef NS_ENUM(NSInteger, transliterationType){
+    transliterationHiragana,
+    transliterationKatakana,
+    transliterationRomaji,
+    
+};
+
+
+
 -(NSArray*)mecabTokens;
 -(NSArray*)mecabTokensForDictionary:(dictionaryType) dictionary;
 
@@ -31,10 +41,17 @@ typedef NS_OPTIONS(NSInteger, japaneseScriptType){
 -(NSDictionary*)furiganaReplacementsForDictionary:(dictionaryType)dictionary;
 -(NSDictionary*)furiganaReplacementsForDictionaryatPath:(NSString*)path type:(dictionaryType)type;
 
+-(NSDictionary*)furiganaReplacementsForDictionaryatPath:(NSString*)path type:(dictionaryType)type transliteration:(transliterationType)transliteration;
+-(NSDictionary*)furiganaReplacementsForDictionary:(dictionaryType)dictionary transliteration:(transliterationType)transliteration;
+-(NSDictionary*)furiganaReplacementsWithTransliteration:(transliterationType)transliteration;
 
 
 -(NSString*)hiraganaStringWithDictionary:(dictionaryType)dictionary;
 -(NSString*)hiraganaStringWithDictionaryatPath:(NSString*)path type:(dictionaryType)type;
+
+
+-(NSString*)romajiStringWithDictionary:(dictionaryType)dictionary;
+-(NSString*)romajiStringWithDictionaryatPath:(NSString*)path type:(dictionaryType)type;
 
 
 -(japaneseScriptType)scriptType;
