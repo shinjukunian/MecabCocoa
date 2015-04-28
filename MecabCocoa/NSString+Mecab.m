@@ -125,6 +125,12 @@
     return furiganaReplacements.copy;
 }
 
+
+
+
+
+
+
 -(NSString*)hiraganaStringWithDictionary:(dictionaryType)dictionary{
     
     NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionary:dictionary];
@@ -181,6 +187,161 @@
     
     return hiraganaString.copy;
 }
+
+
+
+
+-(NSDictionary*)furiganaReplacementsForDictionaryatPath:(NSString *)path type:(dictionaryType)type transliteration:(transliterationType)transliteration{
+    NSDictionary *furigana=[self furiganaReplacementsForDictionaryatPath:path type:type];
+    switch (transliteration) {
+        case transliterationHiragana:
+            return furigana;
+            break;
+        case transliterationKatakana:{
+            
+            NSMutableDictionary *temp=[NSMutableDictionary dictionary];
+            for (NSValue *range in furigana) {
+                NSString *hiraganaString=furigana[range];
+                if (hiraganaString.scriptType &japaneseScriptTypeHiragana) {
+                    NSString *katakanaString=[self stringByTransliteratingHiraganaToKatakana];
+                    [temp addEntriesFromDictionary:@{range:katakanaString}];
+                }
+                return temp.copy;
+            }
+            
+            break;
+        }
+        case transliterationRomaji:{
+            NSMutableDictionary *temp=[NSMutableDictionary dictionary];
+            for (NSValue *range in furigana) {
+                NSString *hiraganaString=furigana[range];
+                if (hiraganaString.scriptType &japaneseScriptTypeHiragana) {
+                    NSString *katakanaString=[self stringByTransliteratingHiranagaToRomaji];
+                    [temp addEntriesFromDictionary:@{range:katakanaString}];
+                }
+                return temp.copy;
+            }
+            
+            break;
+        }
+        default:
+            return nil;
+            break;
+    }
+    return nil;
+}
+
+
+-(NSDictionary*)furiganaReplacementsForDictionary:(dictionaryType)dictionary transliteration:(transliterationType)transliteration{
+    NSDictionary *furigana=[self furiganaReplacementsForDictionary:dictionary];
+    switch (transliteration) {
+        case transliterationHiragana:
+            return furigana;
+            break;
+        case transliterationKatakana:{
+            
+            NSMutableDictionary *temp=[NSMutableDictionary dictionary];
+            for (NSValue *range in furigana) {
+                NSString *hiraganaString=furigana[range];
+                if (hiraganaString.scriptType &japaneseScriptTypeHiragana) {
+                    NSString *katakanaString=[hiraganaString stringByTransliteratingHiraganaToKatakana];
+                    [temp addEntriesFromDictionary:@{range:katakanaString}];
+                }
+                
+            }
+            return temp.copy;
+            break;
+        }
+        case transliterationRomaji:{
+            NSMutableDictionary *temp=[NSMutableDictionary dictionary];
+            for (NSValue *range in furigana) {
+                NSString *hiraganaString=furigana[range];
+                if (hiraganaString.scriptType &japaneseScriptTypeHiragana) {
+                    NSString *katakanaString=[hiraganaString stringByTransliteratingHiranagaToRomaji];
+                    [temp addEntriesFromDictionary:@{range:katakanaString}];
+                }
+            }
+            return temp.copy;
+            break;
+        }
+        default:
+            return nil;
+            break;
+    }
+    return nil;
+    
+}
+
+
+-(NSString*)romajiStringWithDictionary:(dictionaryType)dictionary{
+    
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionary:dictionary];
+    NSMutableString *hiraganaString=[NSMutableString string];
+   // NSRange lastTokenRange=NSMakeRange(0, self.length);
+    for (MecabToken *token in tokens) {
+        
+           // NSRange range=[hiraganaString rangeOfString:token.surface options:NSLiteralSearch range:lastTokenRange];
+            NSString *furigana=[token reading];
+            if (furigana.length>0) {
+                
+                if ([furigana scriptType]&japaneseScriptTypeKatakana) {
+                    furigana=[furigana stringByTransliteratingKatakanaToHiragana];
+                    furigana=[furigana stringByTransliteratingHiranagaToRomaji];
+                }
+                 [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",furigana]];
+            }
+            else{
+                NSString *surface=[token surface];
+                if ((surface.scriptType &japaneseScriptTypeHiragana)) {
+                    [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",[surface stringByTransliteratingHiranagaToRomaji]]];
+                }
+                else if (surface.scriptType&japaneseScriptTypeKatakana){
+                    [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",[[surface stringByTransliteratingKatakanaToHiragana]stringByTransliteratingHiranagaToRomaji]]];
+                }
+                else{
+                    [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",surface]];
+                }
+            }
+        
+    }
+    return hiraganaString.copy;
+}
+
+
+
+-(NSString*)romajiStringWithDictionaryatPath:(NSString*)path type:(dictionaryType)type{
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:path type:type];
+    NSMutableString *hiraganaString=[NSMutableString string];
+
+    for (MecabToken *token in tokens) {
+        NSString *furigana=[token reading];
+        if (furigana.length>0) {
+            
+            if ([furigana scriptType]&japaneseScriptTypeKatakana) {
+                furigana=[furigana stringByTransliteratingKatakanaToHiragana];
+                furigana=[furigana stringByTransliteratingHiranagaToRomaji];
+            }
+            [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",furigana]];
+        }
+        else{
+            NSString *surface=[token surface];
+            if ((surface.scriptType &japaneseScriptTypeHiragana)) {
+                [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",[surface stringByTransliteratingHiranagaToRomaji]]];
+            }
+            else if (surface.scriptType&japaneseScriptTypeKatakana){
+                [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",[[surface stringByTransliteratingKatakanaToHiragana]stringByTransliteratingHiranagaToRomaji]]];
+            }
+            else{
+                [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",surface]];
+            }
+        }
+        
+    }
+    return hiraganaString.copy;
+    
+}
+
+
 
 -(japaneseScriptType)scriptType{
     
@@ -251,6 +412,19 @@
     return nil;
 }
 
+-(NSString*)stringByTransliteratingHiranagaToRomaji{
+    
+    NSMutableString *romaji=self.mutableCopy;
+    CFMutableStringRef romajiRef=(__bridge CFMutableStringRef)(romaji);
+    CFRange range=CFRangeMake(0, romaji.length);
+    BOOL success=CFStringTransform(romajiRef, &range, kCFStringTransformLatinHiragana, YES);
+    if (success) {
+        NSString *hiragana=[(__bridge NSString *)(romajiRef) copy];
+        return hiragana;
+    }
+    
+    return nil;
+}
 
 
 
