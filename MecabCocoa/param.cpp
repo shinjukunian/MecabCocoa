@@ -205,7 +205,24 @@ bool Param::open(const char *arg, const Option *opts) {
     if (size == sizeof(ptr)) break;
     while (*p && !isspace(*p)) p++;
   }
-
+    
+///MB additions to allow spaces in folder if percent escaped
+    for (int i=0; i<64; i++) {
+        char *string=ptr[i];
+        if (strlen(string)>0) {
+            std::string str(string);
+            size_t f=str.find("%20");
+            if (f!=std::string::npos) {
+                str.replace(f, std::string("%20").length(), " ");
+                char *file= new char[str.size()+1];
+                std::copy(str.begin(), str.end(), file);
+                ptr[i]=file;
+                break;
+            }
+        }
+       
+    }
+    
   return open(size, ptr, opts);
 }
 
