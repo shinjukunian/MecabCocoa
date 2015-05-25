@@ -7,6 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7018AA61B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7018ABA1B0EF4C300A8D9AE /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
+		B7018ABB1B0EF4C300A8D9AE /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
+		B7018ABC1B0EF4C300A8D9AE /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = B797FD821AA55F2D00968C95 /* ChangeLog */; };
+		B7018ABD1B0EF4C300A8D9AE /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = B797FD8A1AA55F2D00968C95 /* COPYING */; };
+		B7018ABE1B0EF4C300A8D9AE /* GPL in Resources */ = {isa = PBXBuildFile; fileRef = B797FD961AA55F2D00968C95 /* GPL */; };
+		B7018ABF1B0EF4C300A8D9AE /* LGPL in Resources */ = {isa = PBXBuildFile; fileRef = B797FD9F1AA55F2D00968C95 /* LGPL */; };
+		B7018AC01B0EF4C300A8D9AE /* NEWS in Resources */ = {isa = PBXBuildFile; fileRef = B797FDAD1AA55F2D00968C95 /* NEWS */; };
+		B7018AC11B0EF4C300A8D9AE /* README in Resources */ = {isa = PBXBuildFile; fileRef = B797FDB01AA55F2D00968C95 /* README */; };
+		B7018AC21B0EF4CE00A8D9AE /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
+		B7018AC31B0EF4D200A8D9AE /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
+		B7018AC41B0EF4D500A8D9AE /* NSString+Mecab.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */; };
+		B7018AC51B0EF4D800A8D9AE /* MecabTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */; };
+		B7018AC61B0EF4E100A8D9AE /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
+		B7018AC71B0EF4E600A8D9AE /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7018AC81B0EF4EC00A8D9AE /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7018AC91B0EF4F200A8D9AE /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7018ACA1B0EF4FF00A8D9AE /* char_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD831AA55F2D00968C95 /* char_property.cpp */; };
+		B7018ACB1B0EF4FF00A8D9AE /* char_property.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD841AA55F2D00968C95 /* char_property.h */; };
+		B7018ACC1B0EF4FF00A8D9AE /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD851AA55F2D00968C95 /* common.h */; };
+		B7018ACD1B0EF4FF00A8D9AE /* connector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD861AA55F2D00968C95 /* connector.cpp */; };
+		B7018ACE1B0EF4FF00A8D9AE /* connector.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD871AA55F2D00968C95 /* connector.h */; };
+		B7018ACF1B0EF4FF00A8D9AE /* context_id.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD881AA55F2D00968C95 /* context_id.cpp */; };
+		B7018AD01B0EF4FF00A8D9AE /* context_id.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD891AA55F2D00968C95 /* context_id.h */; };
+		B7018AD11B0EF4FF00A8D9AE /* darts.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD8B1AA55F2D00968C95 /* darts.h */; };
+		B7018AD21B0EF4FF00A8D9AE /* dictionary_compiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8C1AA55F2D00968C95 /* dictionary_compiler.cpp */; };
+		B7018AD31B0EF4FF00A8D9AE /* dictionary_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8D1AA55F2D00968C95 /* dictionary_generator.cpp */; };
+		B7018AD41B0EF4FF00A8D9AE /* dictionary_rewriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8E1AA55F2D00968C95 /* dictionary_rewriter.cpp */; };
+		B7018AD51B0EF4FF00A8D9AE /* dictionary_rewriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD8F1AA55F2D00968C95 /* dictionary_rewriter.h */; };
+		B7018AD61B0EF4FF00A8D9AE /* dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD901AA55F2D00968C95 /* dictionary.cpp */; };
+		B7018AD71B0EF4FF00A8D9AE /* dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD911AA55F2D00968C95 /* dictionary.h */; };
+		B7018AD81B0EF4FF00A8D9AE /* eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD921AA55F2D00968C95 /* eval.cpp */; };
+		B7018AD91B0EF4FF00A8D9AE /* feature_index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD931AA55F2D00968C95 /* feature_index.cpp */; };
+		B7018ADA1B0EF4FF00A8D9AE /* feature_index.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD941AA55F2D00968C95 /* feature_index.h */; };
+		B7018ADB1B0EF4FF00A8D9AE /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD951AA55F2D00968C95 /* freelist.h */; };
+		B7018ADC1B0EF4FF00A8D9AE /* iconv_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD971AA55F2D00968C95 /* iconv_utils.cpp */; };
+		B7018ADD1B0EF4FF00A8D9AE /* iconv_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD981AA55F2D00968C95 /* iconv_utils.h */; };
+		B7018ADE1B0EF4FF00A8D9AE /* lbfgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD991AA55F2D00968C95 /* lbfgs.cpp */; };
+		B7018ADF1B0EF4FF00A8D9AE /* lbfgs.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9A1AA55F2D00968C95 /* lbfgs.h */; };
+		B7018AE01B0EF4FF00A8D9AE /* learner_node.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9B1AA55F2D00968C95 /* learner_node.h */; };
+		B7018AE11B0EF4FF00A8D9AE /* learner_tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9C1AA55F2D00968C95 /* learner_tagger.cpp */; };
+		B7018AE21B0EF4FF00A8D9AE /* learner_tagger.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9D1AA55F2D00968C95 /* learner_tagger.h */; };
+		B7018AE31B0EF4FF00A8D9AE /* learner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9E1AA55F2D00968C95 /* learner.cpp */; };
+		B7018AE41B0EF4FF00A8D9AE /* libmecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDA01AA55F2D00968C95 /* libmecab.cpp */; };
+		B7018AEA1B0EF4FF00A8D9AE /* mecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDA61AA55F2D00968C95 /* mecab.cpp */; };
+		B7018AEB1B0EF4FF00A8D9AE /* mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA71AA55F2D00968C95 /* mecab.h */; };
+		B7018AEC1B0EF4FF00A8D9AE /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA81AA55F2D00968C95 /* mempool.h */; };
+		B7018AED1B0EF4FF00A8D9AE /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA91AA55F2D00968C95 /* mmap.h */; };
+		B7018AEE1B0EF4FF00A8D9AE /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAA1AA55F2D00968C95 /* mutex.h */; };
+		B7018AEF1B0EF4FF00A8D9AE /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAB1AA55F2D00968C95 /* nbest_generator.cpp */; };
+		B7018AF01B0EF4FF00A8D9AE /* nbest_generator.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAC1AA55F2D00968C95 /* nbest_generator.h */; };
+		B7018AF11B0EF4FF00A8D9AE /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAE1AA55F2D00968C95 /* param.cpp */; };
+		B7018AF21B0EF4FF00A8D9AE /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAF1AA55F2D00968C95 /* param.h */; };
+		B7018AF31B0EF4FF00A8D9AE /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB11AA55F2D00968C95 /* scoped_ptr.h */; };
+		B7018AF41B0EF4FF00A8D9AE /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB21AA55F2D00968C95 /* stream_wrapper.h */; };
+		B7018AF51B0EF4FF00A8D9AE /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB31AA55F2D00968C95 /* string_buffer.cpp */; };
+		B7018AF61B0EF4FF00A8D9AE /* string_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB41AA55F2D00968C95 /* string_buffer.h */; };
+		B7018AF71B0EF4FF00A8D9AE /* tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB51AA55F2D00968C95 /* tagger.cpp */; };
+		B7018AF81B0EF4FF00A8D9AE /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB61AA55F2D00968C95 /* thread.h */; };
+		B7018AF91B0EF4FF00A8D9AE /* tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB71AA55F2D00968C95 /* tokenizer.cpp */; };
+		B7018AFA1B0EF4FF00A8D9AE /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB81AA55F2D00968C95 /* tokenizer.h */; };
+		B7018AFB1B0EF4FF00A8D9AE /* ucs.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB91AA55F2D00968C95 /* ucs.h */; };
+		B7018AFC1B0EF4FF00A8D9AE /* ucstable.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBA1AA55F2D00968C95 /* ucstable.h */; };
+		B7018AFD1B0EF4FF00A8D9AE /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDBB1AA55F2D00968C95 /* utils.cpp */; };
+		B7018AFE1B0EF4FF00A8D9AE /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBC1AA55F2D00968C95 /* utils.h */; };
+		B7018AFF1B0EF4FF00A8D9AE /* viterbi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDBD1AA55F2D00968C95 /* viterbi.cpp */; };
+		B7018B001B0EF4FF00A8D9AE /* viterbi.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBE1AA55F2D00968C95 /* viterbi.h */; };
+		B7018B011B0EF4FF00A8D9AE /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
+		B7018B021B0EF4FF00A8D9AE /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
+		B7018B031B0EF4FF00A8D9AE /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
+		B7018B041B0EF50500A8D9AE /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
+		B7018B051B0EF5A300A8D9AE /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
 		B723103E1ACEE04E00DECF0B /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B723103D1ACEE04E00DECF0B /* MecabCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B72310441ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
 		B72310451ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
@@ -234,6 +306,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7018AA41B0EF4A900A8D9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaNoDictionaries.h; sourceTree = "<group>"; };
 		B723103D1ACEE04E00DECF0B /* MecabCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MecabCocoa.h; sourceTree = "<group>"; };
 		B72310401ACEE0BD00DECF0B /* unidic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = unidic; sourceTree = "<group>"; };
 		B72310411ACEE0BD00DECF0B /* naist-jdic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "naist-jdic"; sourceTree = "<group>"; };
@@ -327,6 +402,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B7018A9D1B0EF4A900A8D9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7018B051B0EF5A300A8D9AE /* libiconv.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B73B06B31ACEDD4C009E07E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,6 +437,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7018AA21B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */,
+				B7018AA31B0EF4A900A8D9AE /* Supporting Files */,
+			);
+			path = MecabCocoaNoDictionaries;
+			sourceTree = "<group>";
+		};
+		B7018AA31B0EF4A900A8D9AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7018AA41B0EF4A900A8D9AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B723103F1ACEE09C00DECF0B /* Dictionaries */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,6 +507,7 @@
 				B797FD651AA55F0200968C95 /* MecabCocoaTouch */,
 				B75CC7941ACB905200000EAD /* MecabCocoa */,
 				B73B06B81ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries */,
+				B7018AA21B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */,
 				B797FD641AA55F0200968C95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -417,6 +518,7 @@
 				B797FD631AA55F0200968C95 /* MecabCocoaTouch.framework */,
 				B75CC7931ACB905200000EAD /* MecabCocoa.framework */,
 				B73B06B71ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.framework */,
+				B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -526,6 +628,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		B7018A9E1B0EF4A900A8D9AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7018AFB1B0EF4FF00A8D9AE /* ucs.h in Headers */,
+				B7018B011B0EF4FF00A8D9AE /* viterbisub.h in Headers */,
+				B7018AD71B0EF4FF00A8D9AE /* dictionary.h in Headers */,
+				B7018AF31B0EF4FF00A8D9AE /* scoped_ptr.h in Headers */,
+				B7018AFC1B0EF4FF00A8D9AE /* ucstable.h in Headers */,
+				B7018AF61B0EF4FF00A8D9AE /* string_buffer.h in Headers */,
+				B7018AA61B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h in Headers */,
+				B7018AC81B0EF4EC00A8D9AE /* NSString+Mecab.h in Headers */,
+				B7018AF41B0EF4FF00A8D9AE /* stream_wrapper.h in Headers */,
+				B7018AE01B0EF4FF00A8D9AE /* learner_node.h in Headers */,
+				B7018AEE1B0EF4FF00A8D9AE /* mutex.h in Headers */,
+				B7018AD01B0EF4FF00A8D9AE /* context_id.h in Headers */,
+				B7018AF21B0EF4FF00A8D9AE /* param.h in Headers */,
+				B7018AED1B0EF4FF00A8D9AE /* mmap.h in Headers */,
+				B7018AD11B0EF4FF00A8D9AE /* darts.h in Headers */,
+				B7018AFE1B0EF4FF00A8D9AE /* utils.h in Headers */,
+				B7018AC91B0EF4F200A8D9AE /* MecabTokenizer.h in Headers */,
+				B7018AD51B0EF4FF00A8D9AE /* dictionary_rewriter.h in Headers */,
+				B7018AEC1B0EF4FF00A8D9AE /* mempool.h in Headers */,
+				B7018AE21B0EF4FF00A8D9AE /* learner_tagger.h in Headers */,
+				B7018B041B0EF50500A8D9AE /* config.h in Headers */,
+				B7018B001B0EF4FF00A8D9AE /* viterbi.h in Headers */,
+				B7018ACB1B0EF4FF00A8D9AE /* char_property.h in Headers */,
+				B7018ADD1B0EF4FF00A8D9AE /* iconv_utils.h in Headers */,
+				B7018B031B0EF4FF00A8D9AE /* writer.h in Headers */,
+				B7018ADB1B0EF4FF00A8D9AE /* freelist.h in Headers */,
+				B7018ACE1B0EF4FF00A8D9AE /* connector.h in Headers */,
+				B7018ADF1B0EF4FF00A8D9AE /* lbfgs.h in Headers */,
+				B7018ADA1B0EF4FF00A8D9AE /* feature_index.h in Headers */,
+				B7018AF81B0EF4FF00A8D9AE /* thread.h in Headers */,
+				B7018AEB1B0EF4FF00A8D9AE /* mecab.h in Headers */,
+				B7018AFA1B0EF4FF00A8D9AE /* tokenizer.h in Headers */,
+				B7018AC61B0EF4E100A8D9AE /* NSCharacterSet+Japanese.h in Headers */,
+				B7018ACC1B0EF4FF00A8D9AE /* common.h in Headers */,
+				B7018AF01B0EF4FF00A8D9AE /* nbest_generator.h in Headers */,
+				B7018AC71B0EF4E600A8D9AE /* MecabToken.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B73B06B41ACEDD4C009E07E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -658,6 +803,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B7018AA01B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7018AB81B0EF4A900A8D9AE /* Build configuration list for PBXNativeTarget "MecabCocoaNoDictionaries" */;
+			buildPhases = (
+				B7018A9C1B0EF4A900A8D9AE /* Sources */,
+				B7018A9D1B0EF4A900A8D9AE /* Frameworks */,
+				B7018A9E1B0EF4A900A8D9AE /* Headers */,
+				B7018A9F1B0EF4A900A8D9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MecabCocoaNoDictionaries;
+			productName = MecabCocoaNoDictionaries;
+			productReference = B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B73B06B61ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B73B06CA1ACEDD4C009E07E5 /* Build configuration list for PBXNativeTarget "MecabCocoaTouchNoDictionaries" */;
@@ -721,6 +884,9 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Morten Bertz";
 				TargetAttributes = {
+					B7018AA01B0EF4A900A8D9AE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
 					B73B06B61ACEDD4C009E07E5 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -747,11 +913,27 @@
 				B797FD621AA55F0200968C95 /* MecabCocoaTouch */,
 				B75CC7921ACB905200000EAD /* MecabCocoa */,
 				B73B06B61ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries */,
+				B7018AA01B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B7018A9F1B0EF4A900A8D9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7018ABA1B0EF4C300A8D9AE /* AUTHORS in Resources */,
+				B7018ABB1B0EF4C300A8D9AE /* BSD in Resources */,
+				B7018ABC1B0EF4C300A8D9AE /* ChangeLog in Resources */,
+				B7018ABD1B0EF4C300A8D9AE /* COPYING in Resources */,
+				B7018ABE1B0EF4C300A8D9AE /* GPL in Resources */,
+				B7018ABF1B0EF4C300A8D9AE /* LGPL in Resources */,
+				B7018AC01B0EF4C300A8D9AE /* NEWS in Resources */,
+				B7018AC11B0EF4C300A8D9AE /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B73B06B51ACEDD4C009E07E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -808,6 +990,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B7018A9C1B0EF4A900A8D9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7018AF51B0EF4FF00A8D9AE /* string_buffer.cpp in Sources */,
+				B7018AEF1B0EF4FF00A8D9AE /* nbest_generator.cpp in Sources */,
+				B7018AE31B0EF4FF00A8D9AE /* learner.cpp in Sources */,
+				B7018AD21B0EF4FF00A8D9AE /* dictionary_compiler.cpp in Sources */,
+				B7018AF91B0EF4FF00A8D9AE /* tokenizer.cpp in Sources */,
+				B7018AC31B0EF4D200A8D9AE /* MecabToken.m in Sources */,
+				B7018ACD1B0EF4FF00A8D9AE /* connector.cpp in Sources */,
+				B7018ADC1B0EF4FF00A8D9AE /* iconv_utils.cpp in Sources */,
+				B7018AD41B0EF4FF00A8D9AE /* dictionary_rewriter.cpp in Sources */,
+				B7018AE11B0EF4FF00A8D9AE /* learner_tagger.cpp in Sources */,
+				B7018ADE1B0EF4FF00A8D9AE /* lbfgs.cpp in Sources */,
+				B7018AC41B0EF4D500A8D9AE /* NSString+Mecab.m in Sources */,
+				B7018AD91B0EF4FF00A8D9AE /* feature_index.cpp in Sources */,
+				B7018AD81B0EF4FF00A8D9AE /* eval.cpp in Sources */,
+				B7018AC51B0EF4D800A8D9AE /* MecabTokenizer.m in Sources */,
+				B7018ACF1B0EF4FF00A8D9AE /* context_id.cpp in Sources */,
+				B7018AD61B0EF4FF00A8D9AE /* dictionary.cpp in Sources */,
+				B7018AF71B0EF4FF00A8D9AE /* tagger.cpp in Sources */,
+				B7018AE41B0EF4FF00A8D9AE /* libmecab.cpp in Sources */,
+				B7018AFD1B0EF4FF00A8D9AE /* utils.cpp in Sources */,
+				B7018AFF1B0EF4FF00A8D9AE /* viterbi.cpp in Sources */,
+				B7018AD31B0EF4FF00A8D9AE /* dictionary_generator.cpp in Sources */,
+				B7018B021B0EF4FF00A8D9AE /* writer.cpp in Sources */,
+				B7018AEA1B0EF4FF00A8D9AE /* mecab.cpp in Sources */,
+				B7018ACA1B0EF4FF00A8D9AE /* char_property.cpp in Sources */,
+				B7018AC21B0EF4CE00A8D9AE /* NSCharacterSet+Japanese.m in Sources */,
+				B7018AF11B0EF4FF00A8D9AE /* param.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B73B06B21ACEDD4C009E07E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -913,6 +1129,56 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B7018AB41B0EF4A900A8D9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MecabCocoaNoDictionaries/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B7018AB51B0EF4A900A8D9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MecabCocoaNoDictionaries/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B73B06CB1ACEDD4C009E07E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1129,6 +1395,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B7018AB81B0EF4A900A8D9AE /* Build configuration list for PBXNativeTarget "MecabCocoaNoDictionaries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7018AB41B0EF4A900A8D9AE /* Debug */,
+				B7018AB51B0EF4A900A8D9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B73B06CA1ACEDD4C009E07E5 /* Build configuration list for PBXNativeTarget "MecabCocoaTouchNoDictionaries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

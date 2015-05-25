@@ -7,6 +7,11 @@
 		<key>MecabCocoa.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MecabCocoaNoDictionaries.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
 		<key>MecabCocoaTouch.xcscheme</key>
@@ -17,11 +22,21 @@
 		<key>MecabCocoaTouchNoDictionaries.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B7018AA01B0EF4A900A8D9AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7018AAA1B0EF4A900A8D9AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B73B06B61ACEDD4C009E07E5</key>
 		<dict>
 			<key>primary</key>
