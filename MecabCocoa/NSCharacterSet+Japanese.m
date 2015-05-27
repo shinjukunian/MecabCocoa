@@ -29,4 +29,12 @@
             @"ゃゅょャュョ"];
 }
 
+
++(instancetype)okuriganaCharacterSet{
+    NSMutableCharacterSet *set=[NSMutableCharacterSet characterSetWithCharactersInString:@"っ"];
+    [set formUnionWithCharacterSet:[NSCharacterSet hiraganaCharacterSet]];
+    [set formUnionWithCharacterSet:[NSCharacterSet youonCharacterSet]];
+    return set.copy;
+}
+
 @end

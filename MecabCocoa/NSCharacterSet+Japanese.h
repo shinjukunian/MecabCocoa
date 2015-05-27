@@ -13,5 +13,5 @@
 + (instancetype)hiraganaCharacterSet;
 + (instancetype)katakanaCharacterSet;
 + (instancetype)youonCharacterSet;
-
++(instancetype)okuriganaCharacterSet;
 @end
