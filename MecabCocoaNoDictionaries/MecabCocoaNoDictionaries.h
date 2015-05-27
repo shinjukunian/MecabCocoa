@@ -19,4 +19,5 @@ FOUNDATION_EXPORT const unsigned char MecabCocoaNoDictionariesVersionString[];
 #import "MecabToken.h"
 #import "NSString+Mecab.h"
 #import "MecabTokenizer.h"
+#import "NSCharacterSet+Japanese.h"
 

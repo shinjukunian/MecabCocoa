@@ -20,7 +20,7 @@
 		B7018AC31B0EF4D200A8D9AE /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
 		B7018AC41B0EF4D500A8D9AE /* NSString+Mecab.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */; };
 		B7018AC51B0EF4D800A8D9AE /* MecabTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */; };
-		B7018AC61B0EF4E100A8D9AE /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
+		B7018AC61B0EF4E100A8D9AE /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7018AC71B0EF4E600A8D9AE /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7018AC81B0EF4EC00A8D9AE /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7018AC91B0EF4F200A8D9AE /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -89,7 +89,7 @@
 		B723104A1ACEE0BD00DECF0B /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B72310431ACEE0BD00DECF0B /* ipadic */; };
 		B723104B1ACEE0BD00DECF0B /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B72310431ACEE0BD00DECF0B /* ipadic */; };
 		B73B06BC1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B73B06BB1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B73B06D11ACEDD68009E07E5 /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
+		B73B06D11ACEDD68009E07E5 /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B73B06D21ACEDD68009E07E5 /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		B73B06D31ACEDD68009E07E5 /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B73B06D41ACEDD68009E07E5 /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
@@ -1402,6 +1402,7 @@
 				B7018AB51B0EF4A900A8D9AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B73B06CA1ACEDD4C009E07E5 /* Build configuration list for PBXNativeTarget "MecabCocoaTouchNoDictionaries" */ = {
 			isa = XCConfigurationList;
