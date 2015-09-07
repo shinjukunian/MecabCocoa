@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0620"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B7F2F5011ACED6C600530AAF"
+               BlueprintIdentifier = "B73B06B61ACEDD4C009E07E5"
                BuildableName = "MecabCocoaTouchNoDictionaries.framework"
                BlueprintName = "MecabCocoaTouchNoDictionaries"
                ReferencedContainer = "container:MecabCocoa.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B7F2F5011ACED6C600530AAF"
+            BlueprintIdentifier = "B73B06B61ACEDD4C009E07E5"
             BuildableName = "MecabCocoaTouchNoDictionaries.framework"
             BlueprintName = "MecabCocoaTouchNoDictionaries"
             ReferencedContainer = "container:MecabCocoa.xcodeproj">
@@ -60,7 +60,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B7F2F5011ACED6C600530AAF"
+            BlueprintIdentifier = "B73B06B61ACEDD4C009E07E5"
             BuildableName = "MecabCocoaTouchNoDictionaries.framework"
             BlueprintName = "MecabCocoaTouchNoDictionaries"
             ReferencedContainer = "container:MecabCocoa.xcodeproj">

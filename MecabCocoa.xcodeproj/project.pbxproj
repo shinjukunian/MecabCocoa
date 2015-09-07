@@ -160,7 +160,7 @@
 		B73B071A1ACEDDEB009E07E5 /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B73B071B1ACEDDEB009E07E5 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
 		B73B071C1ACEDE58009E07E5 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FE061AA55F8100968C95 /* libiconv.dylib */; };
-		B75CC7AC1ACB907100000EAD /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
+		B75CC7AC1ACB907100000EAD /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7AD1ACB907600000EAD /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7AF1ACB907B00000EAD /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
@@ -295,7 +295,7 @@
 		B797FE031AA55F2E00968C95 /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B797FE041AA55F2E00968C95 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
 		B797FE071AA55F8200968C95 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FE061AA55F8100968C95 /* libiconv.dylib */; };
-		B797FE101AA55FD500968C95 /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; };
+		B797FE101AA55FD500968C95 /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B797FE111AA55FD500968C95 /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		B797FE121AA55FD500968C95 /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
 		B797FE131AA55FD500968C95 /* NSString+Mecab.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */; };
