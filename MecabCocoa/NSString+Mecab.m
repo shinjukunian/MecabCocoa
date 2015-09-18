@@ -232,6 +232,11 @@
 }
 
 
+-(NSDictionary*)furiganaReplacementsWithTransliteration:(transliterationType)transliteration{
+    return [self furiganaReplacementsForDictionary:iOSTokenizer transliteration:transliteration];
+}
+
+
 -(NSDictionary*)furiganaReplacementsForDictionary:(dictionaryType)dictionary transliteration:(transliterationType)transliteration{
     NSDictionary *furigana=[self furiganaReplacementsForDictionary:dictionary];
     switch (transliteration) {
