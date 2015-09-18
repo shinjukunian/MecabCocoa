@@ -215,8 +215,12 @@ bool Param::open(const char *arg, const Option *opts) {
         if (f!=std::string::npos) {
             str.replace(f, std::string("%20").length(), " ");
             char *file= new char[str.size()+1];
-            std::copy(str.begin(), str.end(), file);
-            printf("file: %s",file);
+              sprintf(file, "%s",str.c_str());
+          //  std::copy(str.begin(), str.end(), file);
+#ifdef DEBUG
+          
+            printf("file: %s\n",file);
+#endif
             ptr[2]=file;
         }
     }
