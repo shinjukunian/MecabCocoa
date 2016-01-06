@@ -11,11 +11,30 @@
 
 @interface MecabToken : NSObject
 
+typedef NS_ENUM(NSInteger, partOfSpeechType){
+    pronoun =0,
+    adverb =1,
+    auxillaryVerb=2,
+    particle=3,
+    verb=4,
+    noun=5,
+    adjective=6,
+    interjection=7,
+    suffix=8,
+    conjunction=9,
+    prefix=10,
+    numeral=11,
+    unknown=100,
+};
+
+
+
 
 @property (nonatomic, retain) NSString *surface;
 @property (nonatomic, retain) NSString *feature;
 @property (nonatomic, retain) NSArray *features;
 @property dictionaryType dictionary;
+@property (nonatomic) partOfSpeechType partOfSpeechType;
 
 // 品詞
 - (NSString *)partOfSpeech;

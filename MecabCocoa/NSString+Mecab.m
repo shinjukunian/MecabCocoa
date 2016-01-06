@@ -25,14 +25,15 @@
     return nil;
 }
 
-
--(NSArray*)lexicalForms{
-    return [self lexicalFormsForDictionary:ipadic];
+-(NSArray*)mecabTokensForDictionary:(dictionaryType)dictionary atPath:(NSString *)path{
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:path type:dictionary];
+    return tokens;
 }
 
--(NSArray*)lexicalFormsForDictionary:(dictionaryType)dictionary{
+
+-(NSArray*)lexicalFormsForDictionary:(dictionaryType)dictionary atPath:(NSString*)path{
     
-    NSArray *tokens=[self mecabTokensForDictionary:dictionary];
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:path type:dictionary];
     NSMutableArray *lexicalForms=[NSMutableArray array];
     for (MecabToken *token in tokens) {
         NSString *lexicalForm=[token originalForm];

@@ -64,6 +64,57 @@
     return [self.features objectAtIndex:5];
 }
 
+
+-(partOfSpeechType)partOfSpeechType{
+    switch (self.dictionary) {
+        case unidic:{
+            NSString *pos=[self partOfSpeech];
+            if ([pos containsString:@"代名詞"]) {
+                return pronoun;
+            }
+            else if ([pos containsString:@"副詞"]){
+                return adverb;
+            }
+            else if ([pos containsString:@"助動詞"]){
+                return auxillaryVerb;
+            }
+            else if ([pos containsString:@"助詞"]){
+                return particle;
+            }
+            else if ([pos containsString:@"動詞"]){
+                return verb;
+            }
+            else if ([pos containsString:@"名詞"]){
+                if ([self.partOfSpeechSubtype1 containsString:@"数詞"]) {
+                    return numeral;
+                }
+                return noun;
+            }
+            else if ([pos containsString:@"形容詞"]){
+                return adjective;
+            }
+            else if ([pos containsString:@"感動詞"]){
+                return interjection;
+            }
+            else if ([pos containsString:@"接尾辞"]){
+                return interjection;
+            }
+            else if ([pos containsString:@"接続詞"]){
+                return conjunction;
+            }
+            else if ([pos containsString:@"接頭辞"]){
+                return conjunction;
+            }
+            break;
+        }
+        default:{
+            break;
+        }
+    }
+    return unknown;
+}
+
+
 - (NSString *)originalForm {
     
     switch (self.dictionary) {

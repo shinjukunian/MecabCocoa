@@ -30,9 +30,9 @@ typedef NS_ENUM(NSInteger, transliterationType){
 
 -(NSArray*)mecabTokens;
 -(NSArray*)mecabTokensForDictionary:(dictionaryType) dictionary;
+-(NSArray*)mecabTokensForDictionary:(dictionaryType) dictionary atPath:(NSString *)path;
 
--(NSArray*)lexicalForms;
--(NSArray*)lexicalFormsForDictionary:(dictionaryType)dictionary;
+-(NSArray*)lexicalFormsForDictionary:(dictionaryType)dictionary atPath:(NSString*)path;
 
 -(NSArray*)readings;
 -(NSArray*)readingsForDictionary:(dictionaryType)dictionary;
