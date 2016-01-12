@@ -9,7 +9,7 @@
 #import "MecabTokenizer.h"
 #import "mecab.h"
 #import "MecabToken.h"
-#import  "NSString+Mecab.h"
+#import "NSString+Mecab.h"
 
 @implementation MecabTokenizer{
     mecab_t *mecab;

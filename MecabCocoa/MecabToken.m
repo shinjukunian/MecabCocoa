@@ -86,9 +86,9 @@
                 return verb;
             }
             else if ([pos containsString:@"名詞"]){
-                if ([self.partOfSpeechSubtype1 containsString:@"数詞"]) {
-                    return numeral;
-                }
+//                if ([self.partOfSpeechSubtype1 containsString:@"数詞"]) {
+//                    return numeral;
+//                }
                 return noun;
             }
             else if ([pos containsString:@"形容詞"]){
