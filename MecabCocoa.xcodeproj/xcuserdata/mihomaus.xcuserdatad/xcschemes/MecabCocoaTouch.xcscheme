@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B73B06B61ACEDD4C009E07E5"
-               BuildableName = "MecabCocoaTouchNoDictionaries.framework"
-               BlueprintName = "MecabCocoaTouchNoDictionaries"
+               BlueprintIdentifier = "B797FD621AA55F0200968C95"
+               BuildableName = "MecabCocoaTouch.framework"
+               BlueprintName = "MecabCocoaTouch"
                ReferencedContainer = "container:MecabCocoa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B73B06B61ACEDD4C009E07E5"
-            BuildableName = "MecabCocoaTouchNoDictionaries.framework"
-            BlueprintName = "MecabCocoaTouchNoDictionaries"
+            BlueprintIdentifier = "B797FD621AA55F0200968C95"
+            BuildableName = "MecabCocoaTouch.framework"
+            BlueprintName = "MecabCocoaTouch"
             ReferencedContainer = "container:MecabCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B73B06B61ACEDD4C009E07E5"
-            BuildableName = "MecabCocoaTouchNoDictionaries.framework"
-            BlueprintName = "MecabCocoaTouchNoDictionaries"
+            BlueprintIdentifier = "B797FD621AA55F0200968C95"
+            BuildableName = "MecabCocoaTouch.framework"
+            BlueprintName = "MecabCocoaTouch"
             ReferencedContainer = "container:MecabCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
