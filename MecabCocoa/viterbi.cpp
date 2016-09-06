@@ -145,7 +145,7 @@ bool Viterbi::forwardbackward(const char *sentence, size_t len) {
       calc_alpha(node, theta_);
 
   begin_node_list_[len]->beta = 0.0;
-  for (int pos = static_cast<long>(len); pos >= 0;    --pos)
+  for (long pos = static_cast<long>(len); pos >= 0;    --pos)
     for (Node *node = end_node_list_[pos]; node; node = node->enext)
       calc_beta(node, theta_);
 
@@ -162,7 +162,7 @@ bool Viterbi::viterbi(const char *sentence, size_t len) {
   bosNode_ = tokenizer_->getBOSNode();
   bosNode_->begin_node_list = &begin_node_list_[0];
   bosNode_->end_node_list = &end_node_list_[0];
-  bosNode_->sentence_length = len;
+  bosNode_->sentence_length = static_cast<uint>(len);
 
   begin_ = sentence;
   end_   = begin_ + len;

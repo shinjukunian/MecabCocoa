@@ -149,9 +149,9 @@ bool TokenizerImpl<N, P>::open(const Param &param) {
     d->next = dictionary_info_;
     d->filename = dic_[i]->filename();
     d->charset = dic_[i]->charset();
-    d->size = dic_[i]->size();
-    d->lsize = dic_[i]->lsize();
-    d->rsize = dic_[i]->rsize();
+    d->size = static_cast<int>(dic_[i]->size());
+    d->lsize = static_cast<int>(dic_[i]->lsize());
+    d->rsize = static_cast<int>(dic_[i]->rsize());
     d->type = dic_[i]->type();
     d->version = dic_[i]->version();
     dictionary_info_ = d;
