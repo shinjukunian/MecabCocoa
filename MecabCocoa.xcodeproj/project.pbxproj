@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7018AA61B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7018ABA1B0EF4C300A8D9AE /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
 		B7018ABB1B0EF4C300A8D9AE /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
 		B7018ABC1B0EF4C300A8D9AE /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = B797FD821AA55F2D00968C95 /* ChangeLog */; };
@@ -233,6 +232,7 @@
 		B74EF2DA1D7E73A500D8654D /* NEWS in Resources */ = {isa = PBXBuildFile; fileRef = B797FDAD1AA55F2D00968C95 /* NEWS */; };
 		B74EF2DB1D7E73A500D8654D /* README in Resources */ = {isa = PBXBuildFile; fileRef = B797FDB01AA55F2D00968C95 /* README */; };
 		B74EF2E11D7E73BD00D8654D /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B72310431ACEE0BD00DECF0B /* ipadic */; };
+		B74EF3141D7E7D0700D8654D /* MecabCocoaIPADic.h in Headers */ = {isa = PBXBuildFile; fileRef = B74EF3131D7E7D0700D8654D /* MecabCocoaIPADic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7AC1ACB907100000EAD /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7AD1ACB907600000EAD /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -391,6 +391,7 @@
 		B73B06BA1ACEDD4C009E07E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73B06BB1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaTouchNoDictionaries.h; sourceTree = "<group>"; };
 		B74EF2DF1D7E73A500D8654D /* MecabCocoaIPADic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaIPADic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74EF3131D7E7D0700D8654D /* MecabCocoaIPADic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MecabCocoaIPADic.h; sourceTree = "<group>"; };
 		B75CC7931ACB905200000EAD /* MecabCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75CC7961ACB905200000EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75CC7FB1ACB915300000EAD /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
@@ -567,6 +568,7 @@
 		B75CC7941ACB905200000EAD /* MecabCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				B74EF3131D7E7D0700D8654D /* MecabCocoaIPADic.h */,
 				B723103D1ACEE04E00DECF0B /* MecabCocoa.h */,
 				B75CC7FB1ACB915300000EAD /* libiconv.dylib */,
 				B75CC7951ACB905200000EAD /* Supporting Files */,
@@ -721,7 +723,6 @@
 				B7018AF31B0EF4FF00A8D9AE /* scoped_ptr.h in Headers */,
 				B7018AFC1B0EF4FF00A8D9AE /* ucstable.h in Headers */,
 				B7018AF61B0EF4FF00A8D9AE /* string_buffer.h in Headers */,
-				B7018AA61B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h in Headers */,
 				B7018AC81B0EF4EC00A8D9AE /* NSString+Mecab.h in Headers */,
 				B7018AF41B0EF4FF00A8D9AE /* stream_wrapper.h in Headers */,
 				B7018AE01B0EF4FF00A8D9AE /* learner_node.h in Headers */,
@@ -833,6 +834,7 @@
 				B74EF2CC1D7E73A500D8654D /* thread.h in Headers */,
 				B74EF2CD1D7E73A500D8654D /* mecab.h in Headers */,
 				B74EF2CE1D7E73A500D8654D /* tokenizer.h in Headers */,
+				B74EF3141D7E7D0700D8654D /* MecabCocoaIPADic.h in Headers */,
 				B74EF2CF1D7E73A500D8654D /* NSCharacterSet+Japanese.h in Headers */,
 				B74EF2D01D7E73A500D8654D /* common.h in Headers */,
 				B74EF2D11D7E73A500D8654D /* nbest_generator.h in Headers */,

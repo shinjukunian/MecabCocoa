@@ -499,5 +499,25 @@
 }
 
 
+-(NSString*)rubyHTML{
+    
+    NSDictionary *ruby=[self furiganaReplacements];
+    NSMutableString *rubyAnnotated=self.mutableCopy;
+    __block NSUInteger delta=0;
+    [ruby enumerateKeysAndObjectsUsingBlock:^(NSValue *rValue, NSString *ruby, BOOL *stop){
+        NSRange range=rValue.rangeValue;
+        NSRange correctedRange=NSMakeRange(range.location+delta, range.length);
+        NSString *original=[rubyAnnotated substringWithRange:correctedRange];
+        if(ruby.length>0){
+            NSString *htmlRuby=[NSString stringWithFormat:@"<ruby>%@<rt>%@</rt></ruby>",original,ruby];
+            NSUInteger d=htmlRuby.length-original.length;
+            delta+=d;
+            [rubyAnnotated replaceCharactersInRange:correctedRange withString:htmlRuby];
+        }
+    }];
+    
+    return rubyAnnotated;
+}
+
 
 @end

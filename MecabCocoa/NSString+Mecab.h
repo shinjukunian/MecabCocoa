@@ -43,7 +43,7 @@ typedef NS_ENUM(NSInteger, transliterationType){
 @property (nonnull, readonly) NSArray<NSString*> *readings;
 @property (nonnull, readonly) NSDictionary<NSValue*,NSString*> *furiganaReplacements;
 @property (nonnull, readonly) NSOrderedSet<NSString*>* kanjiCharacters;
-
+@property (nonnull, readonly) NSString* rubyHTML;
 
 -(nonnull NSArray<MecabToken*>*)mecabTokensForDictionary:(dictionaryType) dictionary;
 -(nonnull NSArray<NSString*>*)readingsForDictionary:(dictionaryType)dictionary;
