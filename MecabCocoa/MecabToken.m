@@ -12,8 +12,6 @@
 
 
 - (void)setFeature:(NSString *)value {
-    
-    
     if (value) {
         self.features = [value componentsSeparatedByString:@","];
     } else {

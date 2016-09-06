@@ -30,11 +30,15 @@ typedef NS_ENUM(NSInteger, partOfSpeechType){
 
 
 
-@property (nonatomic, retain) NSString *surface;
-@property (nonatomic, retain) NSString *feature;
-@property (nonatomic, retain) NSArray *features;
+@property (nonatomic) NSString *surface;
+@property (nonatomic) NSString *feature;
+@property (nonatomic) NSArray *features;
 @property dictionaryType dictionary;
 @property (nonatomic) partOfSpeechType partOfSpeechType;
+
+
+
+
 
 // 品詞
 - (NSString *)partOfSpeech;

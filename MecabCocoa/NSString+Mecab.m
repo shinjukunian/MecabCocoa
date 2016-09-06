@@ -14,15 +14,12 @@
 
 
 -(NSArray*)mecabTokens{
-    return [self mecabTokensForDictionary:ipadic];
+    return [self mecabTokensForDictionary:iOSTokenizer];
 }
 
 -(NSArray*)mecabTokensForDictionary:(dictionaryType) dictionary{
     NSArray* tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionary:dictionary];
-    if (tokens.count>0) {
-        return tokens;
-    }
-    return nil;
+    return tokens;
 }
 
 -(NSArray*)mecabTokensForDictionary:(dictionaryType)dictionary atPath:(NSString *)path{
@@ -430,6 +427,75 @@
     }
     
     return nil;
+}
+
+-(NSOrderedSet*)kanjiCharacters{
+    NSCharacterSet *kanjiCharacterset=[NSCharacterSet characterSetWithRange:NSMakeRange(0x4e00, 0x9fbf-0x4e00)];
+    NSMutableOrderedSet *kanji=[[NSMutableOrderedSet alloc]init];
+    for (NSUInteger i=0; i<self.length; i++) {
+        unichar uni=[self characterAtIndex:i];
+        if ([kanjiCharacterset characterIsMember:uni]) {
+            NSString *str = [NSString stringWithFormat: @"%C", uni];
+            [kanji addObject:str];
+        }
+    }
+    return kanji.copy;
+}
+
+-(NSDictionary*)filterFuriganaDictionary:(NSDictionary*)furiganaDict{
+    
+    NSMutableDictionary *filteredFurigana=[NSMutableDictionary dictionary];
+    for (NSValue *rangeValue in furiganaDict) {
+        NSRange substringRange=rangeValue.rangeValue;
+        NSString *originalSubstring=[self substringWithRange:substringRange];
+        
+        NSArray *kanjiComponents=[originalSubstring componentsSeparatedByCharactersInSet:[NSCharacterSet okuriganaCharacterSet]];
+        
+        kanjiComponents=[kanjiComponents filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(NSString *object, NSDictionary *bindings){
+            if (object.length>0) {
+                return YES;
+            }
+            return NO;
+            
+        }]];
+        
+        if (kanjiComponents.count>0){
+            
+            NSArray *okurigana=[originalSubstring componentsSeparatedByCharactersInSet:[NSCharacterSet kanjiCharacterSet]];
+            NSMutableString *newFuriganaString=[furiganaDict[rangeValue]mutableCopy];
+            NSRange newFuriganaRange=substringRange;
+            
+            for (NSString *okuriganaString in okurigana) {
+                if (okuriganaString.length>0) {
+                    NSRange frontRange=[newFuriganaString rangeOfString:okuriganaString options:NSLiteralSearch | NSAnchoredSearch];
+                    if (frontRange.location!=NSNotFound) {
+                        [newFuriganaString replaceCharactersInRange:frontRange withString:@""];
+                        newFuriganaRange=NSMakeRange(newFuriganaRange.location+frontRange.length, newFuriganaRange.length-frontRange.length);
+                    }
+                    else{
+                        NSRange backRange=[newFuriganaString rangeOfString:okuriganaString options:NSLiteralSearch | NSAnchoredSearch | NSBackwardsSearch];
+                        if (backRange.location!=NSNotFound) {
+                            [newFuriganaString replaceCharactersInRange:backRange withString:@""];
+                            newFuriganaRange=NSMakeRange(newFuriganaRange.location, newFuriganaRange.length-backRange.length);
+                            
+                        }
+                        else{
+                            
+                            NSRange middleRange=[newFuriganaString rangeOfString:okuriganaString options:NSLiteralSearch];
+                            if (middleRange.location!=NSNotFound) {
+                                [newFuriganaString replaceCharactersInRange:middleRange withString:@"　"];
+                                // a bit hackish, but easier than trying to split the string into subtokens
+                            }
+                        }
+                    }
+                }
+                
+            }
+            [filteredFurigana addEntriesFromDictionary:@{[NSValue valueWithRange:newFuriganaRange]:newFuriganaString.copy}];
+            
+        }
+    }
+    return filteredFurigana.copy;
 }
 
 
