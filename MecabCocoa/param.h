@@ -27,10 +27,10 @@ Target lexical_cast(Source arg) {
   return result;
 }
 
-template <>
-std::string lexical_cast<std::string, std::string>(std::string arg) {
-  return arg;
-}
+//template <>
+//    std::string lexical_cast<std::string, std::string>(std::string arg) {
+//    return arg;
+//}
 }
 
 namespace MeCab {

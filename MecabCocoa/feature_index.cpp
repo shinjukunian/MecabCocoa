@@ -392,8 +392,8 @@ int DecoderFeatureIndex::id(const char *key) {
 int EncoderFeatureIndex::id(const char *key) {
   std::map<std::string, int>::const_iterator it = dic_.find(key);
   if (it == dic_.end()) {
-    dic_.insert(std::make_pair<std::string, int>(std::string(key), maxid_));
-    return maxid_++;
+    dic_.insert(std::make_pair<std::string, int>(std::string(key), static_cast<int>(maxid_)));
+    return static_cast<int>(maxid_++);
   } else {
     return it->second;
   }
@@ -419,7 +419,7 @@ void EncoderFeatureIndex::shrink(size_t freq,
   std::map<int, int> old2new;
   for (size_t i = 0; i < freqv.size(); ++i) {
     if (freqv[i] >= freq)
-      old2new.insert(std::make_pair<int, int>(i, maxid_++));
+      old2new.insert(std::make_pair<int, int>(static_cast<int>(i), static_cast<int>(maxid_++)));
   }
 
   // update dic_
