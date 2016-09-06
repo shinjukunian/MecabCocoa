@@ -9,10 +9,15 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>MecabCocoaIPADic.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>MecabCocoaNoDictionaries.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>MecabCocoaTouch.xcscheme</key>
 		<dict>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>B73B06C01ACEDD4C009E07E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B74EF28F1D7E73A500D8654D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
