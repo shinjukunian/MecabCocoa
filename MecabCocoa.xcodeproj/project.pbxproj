@@ -160,6 +160,79 @@
 		B73B071A1ACEDDEB009E07E5 /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B73B071B1ACEDDEB009E07E5 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
 		B73B071C1ACEDE58009E07E5 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FE061AA55F8100968C95 /* libiconv.dylib */; };
+		B74EF2911D7E73A500D8654D /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB31AA55F2D00968C95 /* string_buffer.cpp */; };
+		B74EF2921D7E73A500D8654D /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAB1AA55F2D00968C95 /* nbest_generator.cpp */; };
+		B74EF2931D7E73A500D8654D /* learner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9E1AA55F2D00968C95 /* learner.cpp */; };
+		B74EF2941D7E73A500D8654D /* dictionary_compiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8C1AA55F2D00968C95 /* dictionary_compiler.cpp */; };
+		B74EF2951D7E73A500D8654D /* tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB71AA55F2D00968C95 /* tokenizer.cpp */; };
+		B74EF2961D7E73A500D8654D /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
+		B74EF2971D7E73A500D8654D /* connector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD861AA55F2D00968C95 /* connector.cpp */; };
+		B74EF2981D7E73A500D8654D /* iconv_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD971AA55F2D00968C95 /* iconv_utils.cpp */; };
+		B74EF2991D7E73A500D8654D /* dictionary_rewriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8E1AA55F2D00968C95 /* dictionary_rewriter.cpp */; };
+		B74EF29A1D7E73A500D8654D /* learner_tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9C1AA55F2D00968C95 /* learner_tagger.cpp */; };
+		B74EF29B1D7E73A500D8654D /* lbfgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD991AA55F2D00968C95 /* lbfgs.cpp */; };
+		B74EF29C1D7E73A500D8654D /* NSString+Mecab.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */; };
+		B74EF29D1D7E73A500D8654D /* feature_index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD931AA55F2D00968C95 /* feature_index.cpp */; };
+		B74EF29E1D7E73A500D8654D /* eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD921AA55F2D00968C95 /* eval.cpp */; };
+		B74EF29F1D7E73A500D8654D /* MecabTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */; };
+		B74EF2A01D7E73A500D8654D /* context_id.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD881AA55F2D00968C95 /* context_id.cpp */; };
+		B74EF2A11D7E73A500D8654D /* dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD901AA55F2D00968C95 /* dictionary.cpp */; };
+		B74EF2A21D7E73A500D8654D /* tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB51AA55F2D00968C95 /* tagger.cpp */; };
+		B74EF2A31D7E73A500D8654D /* libmecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDA01AA55F2D00968C95 /* libmecab.cpp */; };
+		B74EF2A41D7E73A500D8654D /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDBB1AA55F2D00968C95 /* utils.cpp */; };
+		B74EF2A51D7E73A500D8654D /* viterbi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDBD1AA55F2D00968C95 /* viterbi.cpp */; };
+		B74EF2A61D7E73A500D8654D /* dictionary_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD8D1AA55F2D00968C95 /* dictionary_generator.cpp */; };
+		B74EF2A71D7E73A500D8654D /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
+		B74EF2A81D7E73A500D8654D /* mecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDA61AA55F2D00968C95 /* mecab.cpp */; };
+		B74EF2A91D7E73A500D8654D /* char_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD831AA55F2D00968C95 /* char_property.cpp */; };
+		B74EF2AA1D7E73A500D8654D /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
+		B74EF2AB1D7E73A500D8654D /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAE1AA55F2D00968C95 /* param.cpp */; };
+		B74EF2AD1D7E73A500D8654D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
+		B74EF2AF1D7E73A500D8654D /* ucs.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB91AA55F2D00968C95 /* ucs.h */; };
+		B74EF2B01D7E73A500D8654D /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
+		B74EF2B11D7E73A500D8654D /* dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD911AA55F2D00968C95 /* dictionary.h */; };
+		B74EF2B21D7E73A500D8654D /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB11AA55F2D00968C95 /* scoped_ptr.h */; };
+		B74EF2B31D7E73A500D8654D /* ucstable.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBA1AA55F2D00968C95 /* ucstable.h */; };
+		B74EF2B41D7E73A500D8654D /* string_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB41AA55F2D00968C95 /* string_buffer.h */; };
+		B74EF2B51D7E73A500D8654D /* MecabCocoaNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74EF2B61D7E73A500D8654D /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74EF2B71D7E73A500D8654D /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB21AA55F2D00968C95 /* stream_wrapper.h */; };
+		B74EF2B81D7E73A500D8654D /* learner_node.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9B1AA55F2D00968C95 /* learner_node.h */; };
+		B74EF2B91D7E73A500D8654D /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAA1AA55F2D00968C95 /* mutex.h */; };
+		B74EF2BA1D7E73A500D8654D /* context_id.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD891AA55F2D00968C95 /* context_id.h */; };
+		B74EF2BB1D7E73A500D8654D /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAF1AA55F2D00968C95 /* param.h */; };
+		B74EF2BC1D7E73A500D8654D /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA91AA55F2D00968C95 /* mmap.h */; };
+		B74EF2BD1D7E73A500D8654D /* darts.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD8B1AA55F2D00968C95 /* darts.h */; };
+		B74EF2BE1D7E73A500D8654D /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBC1AA55F2D00968C95 /* utils.h */; };
+		B74EF2BF1D7E73A500D8654D /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74EF2C01D7E73A500D8654D /* dictionary_rewriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD8F1AA55F2D00968C95 /* dictionary_rewriter.h */; };
+		B74EF2C11D7E73A500D8654D /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA81AA55F2D00968C95 /* mempool.h */; };
+		B74EF2C21D7E73A500D8654D /* learner_tagger.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9D1AA55F2D00968C95 /* learner_tagger.h */; };
+		B74EF2C31D7E73A500D8654D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
+		B74EF2C41D7E73A500D8654D /* viterbi.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBE1AA55F2D00968C95 /* viterbi.h */; };
+		B74EF2C51D7E73A500D8654D /* char_property.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD841AA55F2D00968C95 /* char_property.h */; };
+		B74EF2C61D7E73A500D8654D /* iconv_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD981AA55F2D00968C95 /* iconv_utils.h */; };
+		B74EF2C71D7E73A500D8654D /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
+		B74EF2C81D7E73A500D8654D /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD951AA55F2D00968C95 /* freelist.h */; };
+		B74EF2C91D7E73A500D8654D /* connector.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD871AA55F2D00968C95 /* connector.h */; };
+		B74EF2CA1D7E73A500D8654D /* lbfgs.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9A1AA55F2D00968C95 /* lbfgs.h */; };
+		B74EF2CB1D7E73A500D8654D /* feature_index.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD941AA55F2D00968C95 /* feature_index.h */; };
+		B74EF2CC1D7E73A500D8654D /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB61AA55F2D00968C95 /* thread.h */; };
+		B74EF2CD1D7E73A500D8654D /* mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA71AA55F2D00968C95 /* mecab.h */; };
+		B74EF2CE1D7E73A500D8654D /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB81AA55F2D00968C95 /* tokenizer.h */; };
+		B74EF2CF1D7E73A500D8654D /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74EF2D01D7E73A500D8654D /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD851AA55F2D00968C95 /* common.h */; };
+		B74EF2D11D7E73A500D8654D /* nbest_generator.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAC1AA55F2D00968C95 /* nbest_generator.h */; };
+		B74EF2D21D7E73A500D8654D /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74EF2D41D7E73A500D8654D /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
+		B74EF2D51D7E73A500D8654D /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
+		B74EF2D61D7E73A500D8654D /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = B797FD821AA55F2D00968C95 /* ChangeLog */; };
+		B74EF2D71D7E73A500D8654D /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = B797FD8A1AA55F2D00968C95 /* COPYING */; };
+		B74EF2D81D7E73A500D8654D /* GPL in Resources */ = {isa = PBXBuildFile; fileRef = B797FD961AA55F2D00968C95 /* GPL */; };
+		B74EF2D91D7E73A500D8654D /* LGPL in Resources */ = {isa = PBXBuildFile; fileRef = B797FD9F1AA55F2D00968C95 /* LGPL */; };
+		B74EF2DA1D7E73A500D8654D /* NEWS in Resources */ = {isa = PBXBuildFile; fileRef = B797FDAD1AA55F2D00968C95 /* NEWS */; };
+		B74EF2DB1D7E73A500D8654D /* README in Resources */ = {isa = PBXBuildFile; fileRef = B797FDB01AA55F2D00968C95 /* README */; };
+		B74EF2E11D7E73BD00D8654D /* ipadic in Resources */ = {isa = PBXBuildFile; fileRef = B72310431ACEE0BD00DECF0B /* ipadic */; };
 		B75CC7AC1ACB907100000EAD /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75CC7AD1ACB907600000EAD /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		B75CC7AE1ACB907B00000EAD /* MecabToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0C1AA55FD500968C95 /* MecabToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -317,6 +390,7 @@
 		B73B06B71ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouchNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73B06BA1ACEDD4C009E07E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73B06BB1ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaTouchNoDictionaries.h; sourceTree = "<group>"; };
+		B74EF2DF1D7E73A500D8654D /* MecabCocoaIPADic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaIPADic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75CC7931ACB905200000EAD /* MecabCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75CC7961ACB905200000EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75CC7FB1ACB915300000EAD /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
@@ -415,6 +489,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73B071C1ACEDE58009E07E5 /* libiconv.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74EF2AC1D7E73A500D8654D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EF2AD1D7E73A500D8654D /* libiconv.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +601,7 @@
 				B75CC7931ACB905200000EAD /* MecabCocoa.framework */,
 				B73B06B71ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.framework */,
 				B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */,
+				B74EF2DF1D7E73A500D8654D /* MecabCocoaIPADic.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -714,6 +797,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B74EF2AE1D7E73A500D8654D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EF2AF1D7E73A500D8654D /* ucs.h in Headers */,
+				B74EF2B01D7E73A500D8654D /* viterbisub.h in Headers */,
+				B74EF2B11D7E73A500D8654D /* dictionary.h in Headers */,
+				B74EF2B21D7E73A500D8654D /* scoped_ptr.h in Headers */,
+				B74EF2B31D7E73A500D8654D /* ucstable.h in Headers */,
+				B74EF2B41D7E73A500D8654D /* string_buffer.h in Headers */,
+				B74EF2B51D7E73A500D8654D /* MecabCocoaNoDictionaries.h in Headers */,
+				B74EF2B61D7E73A500D8654D /* NSString+Mecab.h in Headers */,
+				B74EF2B71D7E73A500D8654D /* stream_wrapper.h in Headers */,
+				B74EF2B81D7E73A500D8654D /* learner_node.h in Headers */,
+				B74EF2B91D7E73A500D8654D /* mutex.h in Headers */,
+				B74EF2BA1D7E73A500D8654D /* context_id.h in Headers */,
+				B74EF2BB1D7E73A500D8654D /* param.h in Headers */,
+				B74EF2BC1D7E73A500D8654D /* mmap.h in Headers */,
+				B74EF2BD1D7E73A500D8654D /* darts.h in Headers */,
+				B74EF2BE1D7E73A500D8654D /* utils.h in Headers */,
+				B74EF2BF1D7E73A500D8654D /* MecabTokenizer.h in Headers */,
+				B74EF2C01D7E73A500D8654D /* dictionary_rewriter.h in Headers */,
+				B74EF2C11D7E73A500D8654D /* mempool.h in Headers */,
+				B74EF2C21D7E73A500D8654D /* learner_tagger.h in Headers */,
+				B74EF2C31D7E73A500D8654D /* config.h in Headers */,
+				B74EF2C41D7E73A500D8654D /* viterbi.h in Headers */,
+				B74EF2C51D7E73A500D8654D /* char_property.h in Headers */,
+				B74EF2C61D7E73A500D8654D /* iconv_utils.h in Headers */,
+				B74EF2C71D7E73A500D8654D /* writer.h in Headers */,
+				B74EF2C81D7E73A500D8654D /* freelist.h in Headers */,
+				B74EF2C91D7E73A500D8654D /* connector.h in Headers */,
+				B74EF2CA1D7E73A500D8654D /* lbfgs.h in Headers */,
+				B74EF2CB1D7E73A500D8654D /* feature_index.h in Headers */,
+				B74EF2CC1D7E73A500D8654D /* thread.h in Headers */,
+				B74EF2CD1D7E73A500D8654D /* mecab.h in Headers */,
+				B74EF2CE1D7E73A500D8654D /* tokenizer.h in Headers */,
+				B74EF2CF1D7E73A500D8654D /* NSCharacterSet+Japanese.h in Headers */,
+				B74EF2D01D7E73A500D8654D /* common.h in Headers */,
+				B74EF2D11D7E73A500D8654D /* nbest_generator.h in Headers */,
+				B74EF2D21D7E73A500D8654D /* MecabToken.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B75CC7901ACB905200000EAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -839,6 +965,24 @@
 			productReference = B73B06B71ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B74EF28F1D7E73A500D8654D /* MecabCocoaIPADic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74EF2DC1D7E73A500D8654D /* Build configuration list for PBXNativeTarget "MecabCocoaIPADic" */;
+			buildPhases = (
+				B74EF2901D7E73A500D8654D /* Sources */,
+				B74EF2AC1D7E73A500D8654D /* Frameworks */,
+				B74EF2AE1D7E73A500D8654D /* Headers */,
+				B74EF2D31D7E73A500D8654D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MecabCocoaIPADic;
+			productName = MecabCocoaNoDictionaries;
+			productReference = B74EF2DF1D7E73A500D8654D /* MecabCocoaIPADic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B75CC7921ACB905200000EAD /* MecabCocoa */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B75CC7A61ACB905200000EAD /* Build configuration list for PBXNativeTarget "MecabCocoa" */;
@@ -914,6 +1058,7 @@
 				B75CC7921ACB905200000EAD /* MecabCocoa */,
 				B73B06B61ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries */,
 				B7018AA01B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */,
+				B74EF28F1D7E73A500D8654D /* MecabCocoaIPADic */,
 			);
 		};
 /* End PBXProject section */
@@ -946,6 +1091,22 @@
 				B73B06F91ACEDDEB009E07E5 /* LGPL in Resources */,
 				B73B06DC1ACEDDEB009E07E5 /* ChangeLog in Resources */,
 				B73B06DA1ACEDDEB009E07E5 /* AUTHORS in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74EF2D31D7E73A500D8654D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EF2E11D7E73BD00D8654D /* ipadic in Resources */,
+				B74EF2D41D7E73A500D8654D /* AUTHORS in Resources */,
+				B74EF2D51D7E73A500D8654D /* BSD in Resources */,
+				B74EF2D61D7E73A500D8654D /* ChangeLog in Resources */,
+				B74EF2D71D7E73A500D8654D /* COPYING in Resources */,
+				B74EF2D81D7E73A500D8654D /* GPL in Resources */,
+				B74EF2D91D7E73A500D8654D /* LGPL in Resources */,
+				B74EF2DA1D7E73A500D8654D /* NEWS in Resources */,
+				B74EF2DB1D7E73A500D8654D /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1058,6 +1219,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B74EF2901D7E73A500D8654D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EF2911D7E73A500D8654D /* string_buffer.cpp in Sources */,
+				B74EF2921D7E73A500D8654D /* nbest_generator.cpp in Sources */,
+				B74EF2931D7E73A500D8654D /* learner.cpp in Sources */,
+				B74EF2941D7E73A500D8654D /* dictionary_compiler.cpp in Sources */,
+				B74EF2951D7E73A500D8654D /* tokenizer.cpp in Sources */,
+				B74EF2961D7E73A500D8654D /* MecabToken.m in Sources */,
+				B74EF2971D7E73A500D8654D /* connector.cpp in Sources */,
+				B74EF2981D7E73A500D8654D /* iconv_utils.cpp in Sources */,
+				B74EF2991D7E73A500D8654D /* dictionary_rewriter.cpp in Sources */,
+				B74EF29A1D7E73A500D8654D /* learner_tagger.cpp in Sources */,
+				B74EF29B1D7E73A500D8654D /* lbfgs.cpp in Sources */,
+				B74EF29C1D7E73A500D8654D /* NSString+Mecab.m in Sources */,
+				B74EF29D1D7E73A500D8654D /* feature_index.cpp in Sources */,
+				B74EF29E1D7E73A500D8654D /* eval.cpp in Sources */,
+				B74EF29F1D7E73A500D8654D /* MecabTokenizer.m in Sources */,
+				B74EF2A01D7E73A500D8654D /* context_id.cpp in Sources */,
+				B74EF2A11D7E73A500D8654D /* dictionary.cpp in Sources */,
+				B74EF2A21D7E73A500D8654D /* tagger.cpp in Sources */,
+				B74EF2A31D7E73A500D8654D /* libmecab.cpp in Sources */,
+				B74EF2A41D7E73A500D8654D /* utils.cpp in Sources */,
+				B74EF2A51D7E73A500D8654D /* viterbi.cpp in Sources */,
+				B74EF2A61D7E73A500D8654D /* dictionary_generator.cpp in Sources */,
+				B74EF2A71D7E73A500D8654D /* writer.cpp in Sources */,
+				B74EF2A81D7E73A500D8654D /* mecab.cpp in Sources */,
+				B74EF2A91D7E73A500D8654D /* char_property.cpp in Sources */,
+				B74EF2AA1D7E73A500D8654D /* NSCharacterSet+Japanese.m in Sources */,
+				B74EF2AB1D7E73A500D8654D /* param.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B75CC78E1ACB905200000EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1152,7 +1347,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaNoDictionaries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1181,7 +1376,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaNoDictionaries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1204,7 +1399,7 @@
 				INFOPLIST_FILE = MecabCocoaTouchNoDictionaries/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouchNoDictionaries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1225,8 +1420,63 @@
 				INFOPLIST_FILE = MecabCocoaTouchNoDictionaries/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouchNoDictionaries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B74EF2DD1D7E73A500D8654D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MecabCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaIPADic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B74EF2DE1D7E73A500D8654D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = MecabCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaIPADic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1248,7 +1498,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1273,7 +1523,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1383,7 +1633,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
@@ -1408,7 +1658,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
@@ -1432,6 +1682,15 @@
 			buildConfigurations = (
 				B73B06CB1ACEDD4C009E07E5 /* Debug */,
 				B73B06CC1ACEDD4C009E07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74EF2DC1D7E73A500D8654D /* Build configuration list for PBXNativeTarget "MecabCocoaIPADic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74EF2DD1D7E73A500D8654D /* Debug */,
+				B74EF2DE1D7E73A500D8654D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
