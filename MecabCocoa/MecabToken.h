@@ -30,9 +30,9 @@ typedef NS_ENUM(NSInteger, partOfSpeechType){
 
 
 
-@property (nonatomic) NSString *surface;
-@property (nonatomic) NSString *feature;
-@property (nonatomic) NSArray *features;
+@property (nonatomic,nonnull) NSString *surface;
+@property (nonatomic,nullable) NSString *feature;
+@property (nonatomic,nullable) NSArray *features;
 @property dictionaryType dictionary;
 @property (nonatomic) partOfSpeechType partOfSpeechType;
 
@@ -41,23 +41,23 @@ typedef NS_ENUM(NSInteger, partOfSpeechType){
 
 
 // 品詞
-- (NSString *)partOfSpeech;
+- (nullable NSString *)partOfSpeech;
 // 品詞細分類1
-- (NSString *)partOfSpeechSubtype1;
+- (nullable NSString *)partOfSpeechSubtype1;
 // 品詞細分類2
-- (NSString *)partOfSpeechSubtype2;
+- (nullable NSString *)partOfSpeechSubtype2;
 // 品詞細分類3
-- (NSString *)partOfSpeechSubtype3;
+- (nullable NSString *)partOfSpeechSubtype3;
 // 活用形
-- (NSString *)inflection;
+- (nullable NSString *)inflection;
 // 活用型
-- (NSString *)useOfType;
+- (nullable NSString *)useOfType;
 // 原形
-- (NSString *)originalForm;
+- (nullable NSString *)originalForm;
 // 読み
-- (NSString *)reading;
+- (nullable NSString *)reading;
 // 発音
-- (NSString *)pronunciation;
+- (nullable NSString *)pronunciation;
 
 
 
