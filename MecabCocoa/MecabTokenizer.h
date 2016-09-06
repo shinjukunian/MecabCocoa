@@ -23,10 +23,8 @@ typedef NS_ENUM(NSUInteger, dictionaryType){
 
 
 
-#if NO_DICTIONARIES
-- (nonnull NSArray<MecabToken*>*)parseToNodeWithString:(nonnull NSString *)string withDictionaryAtLocation:(nonnull NSString*)path type:(dictionaryType)type;
-#endif
 
+- (nonnull NSArray<MecabToken*>*)parseToNodeWithString:(nonnull NSString *)string withDictionaryAtLocation:(nonnull NSString*)path type:(dictionaryType)type;
 - (nonnull NSArray<MecabToken*>*)parseToNodeWithString:(nonnull NSString *)string;
 - (nonnull NSArray<MecabToken*>*)parseToNodeWithString:(nonnull NSString *)string withDictionary:(dictionaryType)dictionary;
 
