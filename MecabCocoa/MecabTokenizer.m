@@ -20,15 +20,9 @@
 - (NSArray *)parseToNodeWithString:(NSString *)string {
     
     if (mecab == NULL) {
-        
-        //#if TARGET_IPHONE_SIMULATOR
-        // Homebrew mecab path
-        //NSString *path = @"/usr/local/Cellar/mecab/0.98/lib/mecab/dic/ipadic";
-        //#else
+
         NSString *path = [[NSBundle bundleForClass:[self class]]resourcePath];;
         path=[path stringByAppendingPathComponent:@"ipadic"];
-        //#endif
-        
         mecab = mecab_new2([[@"-d " stringByAppendingString:path] UTF8String]);
         
         if (mecab == NULL) {
@@ -73,7 +67,6 @@
             case jumandic:
                 path=[path stringByAppendingPathComponent:@"jumandic"];
                 break;
-                
             case ipadic:
                 path=[path stringByAppendingPathComponent:@"ipadic"];
                 break;
@@ -83,7 +76,6 @@
             case unidic:
                 path=[path stringByAppendingPathComponent:@"unidic"];
                 break;
-            
             default:
                 break;
         }

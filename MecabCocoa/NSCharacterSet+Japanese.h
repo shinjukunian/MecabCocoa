@@ -9,9 +9,9 @@
 
 @interface NSCharacterSet (Japanese)
 
-+ (instancetype)kanjiCharacterSet;
-+ (instancetype)hiraganaCharacterSet;
-+ (instancetype)katakanaCharacterSet;
-+ (instancetype)youonCharacterSet;
-+(instancetype)okuriganaCharacterSet;
++ (nonnull instancetype)kanjiCharacterSet;
++ (nonnull instancetype)hiraganaCharacterSet;
++ (nonnull instancetype)katakanaCharacterSet;
++ (nonnull instancetype)youonCharacterSet;
++ (nonnull instancetype)okuriganaCharacterSet;
 @end
