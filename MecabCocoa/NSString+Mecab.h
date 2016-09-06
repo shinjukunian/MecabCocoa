@@ -56,7 +56,7 @@ typedef NS_ENUM(NSInteger, transliterationType){
 -(nonnull NSString*)hiraganaStringWithDictionary:(dictionaryType)dictionary;
 
 -(nonnull NSString*)romajiStringWithDictionary:(dictionaryType)dictionary;
-
+-(nonnull NSString*)rubyHTMLWithFurigana:(nonnull NSDictionary<NSValue*,NSString*>*)furigana;
 
 
 -(japaneseScriptType)scriptType;

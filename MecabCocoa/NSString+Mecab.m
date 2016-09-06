@@ -502,9 +502,30 @@
 -(NSString*)rubyHTML{
     
     NSDictionary *ruby=[self furiganaReplacements];
+    return [self rubyHTMLWithFurigana:ruby];
+}
+
+-(nonnull NSString*)rubyHTMLWithFurigana:(nonnull NSDictionary<NSValue*,NSString*>*)furigana{
     NSMutableString *rubyAnnotated=self.mutableCopy;
-    __block NSUInteger delta=0;
-    [ruby enumerateKeysAndObjectsUsingBlock:^(NSValue *rValue, NSString *ruby, BOOL *stop){
+    NSUInteger delta=0;
+    NSArray *sortedRanges=[furigana.allKeys sortedArrayUsingComparator:^NSComparisonResult(NSValue *r1, NSValue *r2){
+    
+        NSRange range1=r1.rangeValue;
+        NSRange range2=r2.rangeValue;
+        
+        if (range1.location<range2.location){
+            return NSOrderedAscending;
+        }
+        else if (range1.location>range2.location){
+            return NSOrderedDescending;
+        }
+        else{
+            return NSOrderedSame;
+        }
+    }];
+    
+    for (NSValue *rValue in sortedRanges) {
+        NSString *ruby=furigana[rValue];
         NSRange range=rValue.rangeValue;
         NSRange correctedRange=NSMakeRange(range.location+delta, range.length);
         NSString *original=[rubyAnnotated substringWithRange:correctedRange];
@@ -514,10 +535,11 @@
             delta+=d;
             [rubyAnnotated replaceCharactersInRange:correctedRange withString:htmlRuby];
         }
-    }];
+    }
     
     return rubyAnnotated;
 }
+
 
 
 @end
