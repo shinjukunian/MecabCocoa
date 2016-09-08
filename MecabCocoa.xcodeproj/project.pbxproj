@@ -78,6 +78,7 @@
 		B7018B031B0EF4FF00A8D9AE /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
 		B7018B041B0EF50500A8D9AE /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
 		B7018B051B0EF5A300A8D9AE /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
+		B70ECE2C1D812BD100E11825 /* MecabCocoaNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B723103E1ACEE04E00DECF0B /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B723103D1ACEE04E00DECF0B /* MecabCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B72310441ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
 		B72310451ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
@@ -193,7 +194,6 @@
 		B74EF2B21D7E73A500D8654D /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB11AA55F2D00968C95 /* scoped_ptr.h */; };
 		B74EF2B31D7E73A500D8654D /* ucstable.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBA1AA55F2D00968C95 /* ucstable.h */; };
 		B74EF2B41D7E73A500D8654D /* string_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB41AA55F2D00968C95 /* string_buffer.h */; };
-		B74EF2B51D7E73A500D8654D /* MecabCocoaNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74EF2B61D7E73A500D8654D /* NSString+Mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0E1AA55FD500968C95 /* NSString+Mecab.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74EF2B71D7E73A500D8654D /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB21AA55F2D00968C95 /* stream_wrapper.h */; };
 		B74EF2B81D7E73A500D8654D /* learner_node.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD9B1AA55F2D00968C95 /* learner_node.h */; };
@@ -721,6 +721,7 @@
 				B7018B011B0EF4FF00A8D9AE /* viterbisub.h in Headers */,
 				B7018AD71B0EF4FF00A8D9AE /* dictionary.h in Headers */,
 				B7018AF31B0EF4FF00A8D9AE /* scoped_ptr.h in Headers */,
+				B70ECE2C1D812BD100E11825 /* MecabCocoaNoDictionaries.h in Headers */,
 				B7018AFC1B0EF4FF00A8D9AE /* ucstable.h in Headers */,
 				B7018AF61B0EF4FF00A8D9AE /* string_buffer.h in Headers */,
 				B7018AC81B0EF4EC00A8D9AE /* NSString+Mecab.h in Headers */,
@@ -808,7 +809,6 @@
 				B74EF2B21D7E73A500D8654D /* scoped_ptr.h in Headers */,
 				B74EF2B31D7E73A500D8654D /* ucstable.h in Headers */,
 				B74EF2B41D7E73A500D8654D /* string_buffer.h in Headers */,
-				B74EF2B51D7E73A500D8654D /* MecabCocoaNoDictionaries.h in Headers */,
 				B74EF2B61D7E73A500D8654D /* NSString+Mecab.h in Headers */,
 				B74EF2B71D7E73A500D8654D /* stream_wrapper.h in Headers */,
 				B74EF2B81D7E73A500D8654D /* learner_node.h in Headers */,
