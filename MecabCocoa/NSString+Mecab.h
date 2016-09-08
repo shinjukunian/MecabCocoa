@@ -27,7 +27,7 @@ typedef NS_ENUM(NSInteger, transliterationType){
 };
 
 
-#if NO_DICTIONARIES
+#ifndef NO_DICTIONARIES
 -(nonnull NSArray<MecabToken*>*)mecabTokensForDictionary:(dictionaryType) dictionary atPath:(nonnull NSString *)path;
 -(nonnull NSArray<NSString*>*)lexicalFormsForDictionary:(dictionaryType)dictionary atPath:(nonnull NSString*)path;
 -(nonnull NSDictionary<NSValue*,NSString*>*)furiganaReplacementsForDictionaryatPath:(nonnull NSString*)path type:(dictionaryType)type;
