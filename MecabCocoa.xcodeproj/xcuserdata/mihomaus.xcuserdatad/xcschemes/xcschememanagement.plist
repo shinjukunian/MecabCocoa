@@ -7,22 +7,22 @@
 		<key>MecabCocoa.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>17</integer>
 		</dict>
 		<key>MecabCocoaNoDictionaries.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>19</integer>
 		</dict>
 		<key>MecabCocoaTouch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>16</integer>
 		</dict>
 		<key>MecabCocoaTouchNoDictionaries.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>18</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

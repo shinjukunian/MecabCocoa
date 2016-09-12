@@ -190,7 +190,7 @@ bool CharProperty::compile(const char *cfile,
       c.invoke  = std::atoi(col[1]);
       c.group   = std::atoi(col[2]);
       c.length  = std::atoi(col[3]);
-      c.default_type = static_cast<uint>(id++);
+      c.default_type = id++;
 
       category.insert(std::make_pair<std::string, CharInfo>(key, c));
       category_ary.push_back(key);

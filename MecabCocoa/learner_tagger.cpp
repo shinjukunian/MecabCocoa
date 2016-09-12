@@ -24,9 +24,9 @@ char *mystrdup(const char *str) {
   return r;
 }
 
-//char *mystrdup(const std::string &str) {
-//  return mystrdup(str.c_str());
-//}
+char *mystrdup(const std::string &str) {
+  return mystrdup(str.c_str());
+}
 }
 
 bool EncoderLearnerTagger::open(LearnerTokenizer      *p0,
@@ -382,7 +382,7 @@ double EncoderLearnerTagger::gradient(double *expected) {
     for (LearnerNode *node = beginNodeList_[pos]; node; node = node->bnext)
       calc_alpha(node);
 
-  for (int pos = static_cast<int>(len_); pos >=0;    --pos)
+  for (int pos = static_cast<long>(len_); pos >=0;    --pos)
     for (LearnerNode *node = endNodeList_[pos]; node; node = node->enext)
       calc_beta(node);
 
