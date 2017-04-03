@@ -59,7 +59,7 @@ typedef NS_ENUM(NSInteger, partOfSpeechType){
 // 発音
 - (nullable NSString *)pronunciation;
 
-
+-(nullable NSString*)dictionaryForm;
 
 
 @end

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MecabCocoa.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>MecabCocoaIPADic.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>MecabCocoaNoDictionaries.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>MecabCocoaTouch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>MecabCocoaTouchNoDictionaries.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B7018AA01B0EF4A900A8D9AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B73B06B61ACEDD4C009E07E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B74EF28F1D7E73A500D8654D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B75CC7921ACB905200000EAD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B797FD621AA55F0200968C95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
