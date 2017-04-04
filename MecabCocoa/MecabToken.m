@@ -243,14 +243,14 @@
 -(NSString*)dictionaryForm{
     japaneseScriptType type=self.surface.scriptType;    
     if (type!=japaneseScriptTypeNoJapaneseScript && (self.partOfSpeechType==noun || self.partOfSpeechType==adjective || self.partOfSpeechType == verb || self.partOfSpeechType==suffix || self.partOfSpeechType==pronoun) ) {
-        if (self.partOfSpeechType==verb || self.partOfSpeechType==adjective) {
+        if ((self.partOfSpeechType==verb || self.partOfSpeechType==adjective) && self.originalForm != nil) {
             return self.originalForm;
         }
         else{
             return self.surface;
         }
     }
-    return nil;
+    return self.surface;
 }
 
 
