@@ -126,6 +126,10 @@
 
 
 - (NSArray *)parseToNodeWithString:(NSString *)string withDictionaryAtLocation:(NSString*)path type:(dictionaryType)type{
+        
+    if (type == iOSTokenizer) {
+        return [self iOSTokenizerTokensForString:string];
+    }
     
     mecab = mecab_new2([[@"-d " stringByAppendingString:path] UTF8String]);
     
