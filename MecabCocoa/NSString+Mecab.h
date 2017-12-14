@@ -65,7 +65,7 @@ typedef NS_ENUM(NSInteger, transliterationType){
 -(nonnull NSString*)stringByTransliteratingRomajiToHiragana;
 -(nonnull NSDictionary <NSValue*,NSString*>*)filterFuriganaDictionary:(nonnull NSDictionary <NSValue*,NSString*>*)furiganaDict;
 
-
+-(void)stripRubyTags:(void (^_Nonnull)(NSString * _Nonnull strippedHTML, NSArray <NSString*> * _Nonnull annotatedCharacters, NSArray <NSString*> * _Nonnull furiganaAnnotations))completion;
 
 
 @end
