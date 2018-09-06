@@ -7,6 +7,7 @@
 //
 
 #import "MecabToken.h"
+#import "NSString+Mecab.h"
 
 @implementation MecabToken
 
@@ -238,6 +239,20 @@
     }
     return [self.features objectAtIndex:8];
 }
+
+-(NSString*)dictionaryForm{
+    japaneseScriptType type=self.surface.scriptType;    
+    if (type!=japaneseScriptTypeNoJapaneseScript && (self.partOfSpeechType==noun || self.partOfSpeechType==adjective || self.partOfSpeechType == verb || self.partOfSpeechType==suffix || self.partOfSpeechType==pronoun) ) {
+        if ((self.partOfSpeechType==verb || self.partOfSpeechType==adjective) && self.originalForm != nil) {
+            return self.originalForm;
+        }
+        else{
+            return self.surface;
+        }
+    }
+    return self.surface;
+}
+
 
 //- (void)dealloc {
 //    self.surface = nil;

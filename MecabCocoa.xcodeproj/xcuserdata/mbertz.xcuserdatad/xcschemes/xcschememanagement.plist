@@ -22,7 +22,11 @@
 		<key>MecabCocoaTouch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
+			<integer>1</integer>
+=======
 			<integer>0</integer>
+>>>>>>> 252ff91e11ecb95bd2c2757343f00a18b524c596
 		</dict>
 		<key>MecabCocoaTouchNoDictionaries.xcscheme</key>
 		<dict>

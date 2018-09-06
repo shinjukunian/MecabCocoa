@@ -43,6 +43,8 @@ typedef NS_ENUM(NSInteger, transliterationType){
 @property (nonnull, readonly) NSOrderedSet<NSString*>* kanjiCharacters;
 @property (nonnull, readonly) NSString* rubyHTML;
 
+
+
 -(nonnull NSArray<MecabToken*>*)mecabTokensForDictionary:(dictionaryType) dictionary;
 -(nonnull NSArray<NSString*>*)readingsForDictionary:(dictionaryType)dictionary;
 -(nonnull NSDictionary<NSValue*,NSString*>*)furiganaReplacementsForDictionary:(dictionaryType)dictionary;
@@ -63,7 +65,7 @@ typedef NS_ENUM(NSInteger, transliterationType){
 -(nonnull NSString*)stringByTransliteratingRomajiToHiragana;
 -(nonnull NSDictionary <NSValue*,NSString*>*)filterFuriganaDictionary:(nonnull NSDictionary <NSValue*,NSString*>*)furiganaDict;
 
-
+-(void)stripRubyTags:(void (^_Nonnull)(NSString * _Nonnull strippedHTML, NSArray <NSString*> * _Nonnull annotatedCharacters, NSArray <NSString*> * _Nonnull furiganaAnnotations))completion;
 
 
 @end
