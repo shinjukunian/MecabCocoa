@@ -126,6 +126,10 @@
 
 
 - (NSArray *)parseToNodeWithString:(NSString *)string withDictionaryAtLocation:(NSString*)path type:(dictionaryType)type{
+        
+    if (type == iOSTokenizer) {
+        return [self iOSTokenizerTokensForString:string];
+    }
     
     mecab = mecab_new2([[@"-d " stringByAppendingString:path] UTF8String]);
     
@@ -185,10 +189,34 @@
         token.surface=subString;
         token.dictionary=iOSTokenizer;
         if (subString.scriptType&japaneseScriptTypeKanji) {
-            CFTypeRef cTypeRef =  CFStringTokenizerCopyCurrentTokenAttribute(tok,kCFStringTokenizerAttributeLatinTranscription);
-            NSString *latin=[NSString stringWithFormat:@"%@",cTypeRef];
-            [token setFeature:latin];
-            CFRelease(cTypeRef);
+            if (@available(iOS 11.0, *)) { // workaround for a bug in iOS 11 where the locale of the tokenizer is overwritten or ignored
+                CFStringTokenizerRef subTokenizer = CFStringTokenizerCreate(NULL,
+                                                                      (__bridge CFStringRef) subString,
+                                                                      CFRangeMake(0,subString.length),
+                                                                      kCFStringTokenizerUnitWordBoundary,
+                                                                      loc);
+                CFStringTokenizerTokenType subStringResult=CFStringTokenizerAdvanceToNextToken(subTokenizer);
+                NSMutableArray *subTokens=[NSMutableArray new];
+                while(subStringResult != kCFStringTokenizerTokenNone){
+                    CFTypeRef cTypeRef =  CFStringTokenizerCopyCurrentTokenAttribute(subTokenizer,kCFStringTokenizerAttributeLatinTranscription);
+                    NSString *latin=[NSString stringWithFormat:@"%@",cTypeRef];
+                    [subTokens addObject:latin];
+                    CFRelease(cTypeRef);
+                    subStringResult=CFStringTokenizerAdvanceToNextToken(subTokenizer);
+                }
+
+                CFRelease(subTokenizer);
+                NSString *subToken=[subTokens componentsJoinedByString:@""];
+                [token setFeature:subToken];
+
+            }
+            else{
+                CFTypeRef cTypeRef =  CFStringTokenizerCopyCurrentTokenAttribute(tok,kCFStringTokenizerAttributeLatinTranscription);
+                NSString *latin=[NSString stringWithFormat:@"%@",cTypeRef];
+                [token setFeature:latin];
+                CFRelease(cTypeRef);
+            }
+           
         }
        
         [tokens addObject:token];

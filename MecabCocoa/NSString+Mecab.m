@@ -541,5 +541,26 @@
 }
 
 
+-(void)stripRubyTags:(void (^)(NSString * _Nonnull, NSArray<NSString *> * _Nonnull, NSArray<NSString *> * _Nonnull))completion{
+    
+    NSError *error;
+    NSString *rubyRegEx=@"(?:<ruby>(\\w+?)(?:<rt>(.+?)</rt>){1}</ruby>)";
+    NSRegularExpression *regEx=[NSRegularExpression regularExpressionWithPattern:rubyRegEx options:0 error:&error];
+    NSMutableArray *annotatedCharacters=[NSMutableArray new];
+    NSMutableArray *furiganaAnnotations=[NSMutableArray new];
+    [regEx enumerateMatchesInString:self options:0 range:NSMakeRange(0, self.length) usingBlock:^(NSTextCheckingResult *result, NSMatchingFlags flags, __unused BOOL *stop){
+        if (result.numberOfRanges>2) {
+            NSRange subrange=[result rangeAtIndex:1];
+            NSString *kanji=[self substringWithRange:subrange];
+            NSString *furigana=[self substringWithRange:[result rangeAtIndex:2]];
+            [annotatedCharacters addObject:kanji];
+            [furiganaAnnotations addObject:furigana];
+        }
+    }];
+    
+    NSString *stripped=[regEx stringByReplacingMatchesInString:self options:0 range:NSMakeRange(0, self.length) withTemplate:@"$1"];
+    completion(stripped,annotatedCharacters,furiganaAnnotations);
+}
+
 
 @end
