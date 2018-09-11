@@ -28,7 +28,7 @@
         if (mecab == NULL) {
             fprintf(stderr, "error in mecab_new2: %s\n", mecab_strerror(NULL));
             
-            return nil;
+            return @[];
         }
     }
     
@@ -40,7 +40,7 @@
     if (node == NULL) {
         fprintf(stderr, "error\n");
         
-        return nil;
+        return @[];
     }
     
     NSMutableArray *newNodes = [NSMutableArray array];
@@ -98,7 +98,7 @@
         if (node == NULL) {
             fprintf(stderr, "error\n");
             
-            return nil;
+            return @[];
         }
         
         NSMutableArray *newNodes = [NSMutableArray array];
@@ -146,7 +146,7 @@
     if (node == NULL) {
         fprintf(stderr, "error\n");
         
-        return nil;
+        return @[];
     }
     
     NSMutableArray *newNodes = [NSMutableArray array];

@@ -155,7 +155,7 @@ extern "C" {
 
   MECAB_DLL_EXTERN mecab_t*      mecab_new(int argc, char **argv);
   MECAB_DLL_EXTERN mecab_t*      mecab_new2(const char *arg);
-  MECAB_DLL_EXTERN const char*   mecab_version();
+  MECAB_DLL_EXTERN const char*   mecab_version(void);
   MECAB_DLL_EXTERN const char*   mecab_strerror(mecab_t *mecab);
   MECAB_DLL_EXTERN void          mecab_destroy(mecab_t *mecab);
 

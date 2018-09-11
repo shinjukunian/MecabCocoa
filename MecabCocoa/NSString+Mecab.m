@@ -291,7 +291,11 @@
                     furigana=[furigana stringByTransliteratingKatakanaToHiragana];
                     furigana=[furigana stringByTransliteratingHiranagaToRomaji];
                 }
-                 [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",furigana]];
+                else if ([furigana scriptType]&japaneseScriptTypeHiragana){
+                    furigana=[furigana stringByTransliteratingHiranagaToRomaji];
+                }
+                
+                [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",furigana]];
             }
             else{
                 NSString *surface=[token surface];
@@ -307,7 +311,8 @@
             }
         
     }
-    return hiraganaString.copy;
+    
+    return [hiraganaString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]].copy;
 }
 
 
@@ -319,9 +324,12 @@
     for (MecabToken *token in tokens) {
         NSString *furigana=[token reading];
         if (furigana.length>0) {
-            
+
             if ([furigana scriptType]&japaneseScriptTypeKatakana) {
                 furigana=[furigana stringByTransliteratingKatakanaToHiragana];
+                furigana=[furigana stringByTransliteratingHiranagaToRomaji];
+            }
+            else if ([furigana scriptType]&japaneseScriptTypeHiragana){
                 furigana=[furigana stringByTransliteratingHiranagaToRomaji];
             }
             [hiraganaString appendString:[NSString stringWithFormat:@"%@ ",furigana]];
@@ -340,8 +348,7 @@
         }
         
     }
-    return hiraganaString.copy;
-    
+    return [hiraganaString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]].copy;
 }
 
 
@@ -381,7 +388,7 @@
         return hiragana;
     }
     
-    return nil;
+    return @"";
     
 }
 
@@ -397,7 +404,7 @@
         return katakana;
     }
     
-    return nil;
+    return @"";
 }
 
 
@@ -412,7 +419,7 @@
         return hiragana;
     }
     
-    return nil;
+    return @"";
 }
 
 -(NSString*)stringByTransliteratingHiranagaToRomaji{
@@ -426,7 +433,7 @@
         return hiragana;
     }
     
-    return nil;
+    return @"";
 }
 
 -(NSOrderedSet*)kanjiCharacters{

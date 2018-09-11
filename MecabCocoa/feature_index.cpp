@@ -392,8 +392,8 @@ int DecoderFeatureIndex::id(const char *key) {
 int EncoderFeatureIndex::id(const char *key) {
   std::map<std::string, int>::const_iterator it = dic_.find(key);
   if (it == dic_.end()) {
-    dic_.insert(std::make_pair<std::string, int>(std::string(key), maxid_));
-    return maxid_++;
+    dic_.insert(std::make_pair<std::string, int>(std::string(key), (int) maxid_));
+    return (int) maxid_++;
   } else {
     return it->second;
   }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A04FB162147958100569462 /* MecabCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A04FB152147958100569462 /* MecabCocoaTests.swift */; };
+		5A04FB182147958100569462 /* MecabCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7931ACB905200000EAD /* MecabCocoa.framework */; };
 		B7018ABA1B0EF4C300A8D9AE /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
 		B7018ABB1B0EF4C300A8D9AE /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
 		B7018ABC1B0EF4C300A8D9AE /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = B797FD821AA55F2D00968C95 /* ChangeLog */; };
@@ -378,7 +380,20 @@
 		B797FE171AA55FD500968C95 /* MecabTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A04FB192147958100569462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B797FD5A1AA55F0200968C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75CC7921ACB905200000EAD;
+			remoteInfo = MecabCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5A04FB132147958100569462 /* MecabCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MecabCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A04FB152147958100569462 /* MecabCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MecabCocoaTests.swift; sourceTree = "<group>"; };
+		5A04FB172147958100569462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7018AA41B0EF4A900A8D9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaNoDictionaries.h; sourceTree = "<group>"; };
@@ -477,6 +492,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A04FB102147958100569462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A04FB182147958100569462 /* MecabCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7018A9D1B0EF4A900A8D9AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -520,6 +543,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A04FB142147958100569462 /* MecabCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A04FB152147958100569462 /* MecabCocoaTests.swift */,
+				5A04FB172147958100569462 /* Info.plist */,
+			);
+			path = MecabCocoaTests;
+			sourceTree = "<group>";
+		};
 		B7018AA21B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */ = {
 			isa = PBXGroup;
 			children = (
@@ -592,6 +624,7 @@
 				B75CC7941ACB905200000EAD /* MecabCocoa */,
 				B73B06B81ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries */,
 				B7018AA21B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */,
+				5A04FB142147958100569462 /* MecabCocoaTests */,
 				B797FD641AA55F0200968C95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -604,6 +637,7 @@
 				B73B06B71ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries.framework */,
 				B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */,
 				B74EF2DF1D7E73A500D8654D /* MecabCocoaIPADic.framework */,
+				5A04FB132147958100569462 /* MecabCocoaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -931,6 +965,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5A04FB122147958100569462 /* MecabCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A04FB1D2147958100569462 /* Build configuration list for PBXNativeTarget "MecabCocoaTests" */;
+			buildPhases = (
+				5A04FB0F2147958100569462 /* Sources */,
+				5A04FB102147958100569462 /* Frameworks */,
+				5A04FB112147958100569462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A04FB1A2147958100569462 /* PBXTargetDependency */,
+			);
+			name = MecabCocoaTests;
+			productName = MecabCocoaTests;
+			productReference = 5A04FB132147958100569462 /* MecabCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B7018AA01B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7018AB81B0EF4A900A8D9AE /* Build configuration list for PBXNativeTarget "MecabCocoaNoDictionaries" */;
@@ -1027,9 +1079,15 @@
 		B797FD5A1AA55F0200968C95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Morten Bertz";
 				TargetAttributes = {
+					5A04FB122147958100569462 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = DVQ96RL2KL;
+						ProvisioningStyle = Automatic;
+					};
 					B7018AA01B0EF4A900A8D9AE = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -1061,11 +1119,19 @@
 				B73B06B61ACEDD4C009E07E5 /* MecabCocoaTouchNoDictionaries */,
 				B7018AA01B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */,
 				B74EF28F1D7E73A500D8654D /* MecabCocoaIPADic */,
+				5A04FB122147958100569462 /* MecabCocoaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5A04FB112147958100569462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7018A9F1B0EF4A900A8D9AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1153,6 +1219,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5A04FB0F2147958100569462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A04FB162147958100569462 /* MecabCocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7018A9C1B0EF4A900A8D9AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1325,7 +1399,77 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5A04FB1A2147958100569462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75CC7921ACB905200000EAD /* MecabCocoa */;
+			targetProxy = 5A04FB192147958100569462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5A04FB1B2147958100569462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DVQ96RL2KL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MecabCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon..MecabCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5A04FB1C2147958100569462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DVQ96RL2KL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MecabCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon..MecabCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		B7018AB41B0EF4A900A8D9AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1694,6 +1838,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A04FB1D2147958100569462 /* Build configuration list for PBXNativeTarget "MecabCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A04FB1B2147958100569462 /* Debug */,
+				5A04FB1C2147958100569462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B7018AB81B0EF4A900A8D9AE /* Build configuration list for PBXNativeTarget "MecabCocoaNoDictionaries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

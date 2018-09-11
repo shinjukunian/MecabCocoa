@@ -382,7 +382,7 @@ double EncoderLearnerTagger::gradient(double *expected) {
     for (LearnerNode *node = beginNodeList_[pos]; node; node = node->bnext)
       calc_alpha(node);
 
-  for (int pos = static_cast<long>(len_); pos >=0;    --pos)
+  for (long pos = static_cast<long>(len_); pos >=0;    --pos)
     for (LearnerNode *node = endNodeList_[pos]; node; node = node->enext)
       calc_beta(node);
 
