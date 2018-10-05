@@ -69,7 +69,6 @@
 		5AD7448C2166F8A30030F2EE /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB61AA55F2D00968C95 /* thread.h */; };
 		5AD7448D2166F8A30030F2EE /* mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDA71AA55F2D00968C95 /* mecab.h */; };
 		5AD7448E2166F8A30030F2EE /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB81AA55F2D00968C95 /* tokenizer.h */; };
-		5AD7448F2166F8A30030F2EE /* MecabCocoaIPADic.h in Headers */ = {isa = PBXBuildFile; fileRef = B74EF3131D7E7D0700D8654D /* MecabCocoaIPADic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AD744902166F8A30030F2EE /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AD744912166F8A30030F2EE /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD851AA55F2D00968C95 /* common.h */; };
 		5AD744922166F8A30030F2EE /* nbest_generator.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDAC1AA55F2D00968C95 /* nbest_generator.h */; };
@@ -470,7 +469,6 @@
 		5A04FB172147958100569462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A5339CA2166FD0A000672E2 /* MecabCocoaTouchIPADic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaTouchIPADic.h; sourceTree = "<group>"; };
 		5AD744A12166F8A30030F2EE /* MecabCocoaTouchIPADic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouchIPADic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AD744A22166F8A40030F2EE /* MecabCocoaIPADic copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MecabCocoaIPADic copy-Info.plist"; path = "/Users/morten/Desktop/xcode/CloudFurigana/MecabCocoa/MecabCocoaIPADic copy-Info.plist"; sourceTree = "<absolute>"; };
 		B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7018AA41B0EF4A900A8D9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaNoDictionaries.h; sourceTree = "<group>"; };
@@ -711,7 +709,6 @@
 				B7018AA21B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */,
 				5A04FB142147958100569462 /* MecabCocoaTests */,
 				B797FD641AA55F0200968C95 /* Products */,
-				5AD744A22166F8A40030F2EE /* MecabCocoaIPADic copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -870,7 +867,6 @@
 				5AD7448C2166F8A30030F2EE /* thread.h in Headers */,
 				5AD7448D2166F8A30030F2EE /* mecab.h in Headers */,
 				5AD7448E2166F8A30030F2EE /* tokenizer.h in Headers */,
-				5AD7448F2166F8A30030F2EE /* MecabCocoaIPADic.h in Headers */,
 				5AD744902166F8A30030F2EE /* NSCharacterSet+Japanese.h in Headers */,
 				5AD744912166F8A30030F2EE /* common.h in Headers */,
 				5AD744922166F8A30030F2EE /* nbest_generator.h in Headers */,
