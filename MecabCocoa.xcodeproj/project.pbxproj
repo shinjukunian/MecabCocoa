@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5A04FB162147958100569462 /* MecabCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A04FB152147958100569462 /* MecabCocoaTests.swift */; };
 		5A04FB182147958100569462 /* MecabCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7931ACB905200000EAD /* MecabCocoa.framework */; };
+		5A123781223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
+		5A123782223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
+		5A123783223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
+		5A123784223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
+		5A123785223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
 		B7018ABA1B0EF4C300A8D9AE /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
 		B7018ABB1B0EF4C300A8D9AE /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
 		B7018ABC1B0EF4C300A8D9AE /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = B797FD821AA55F2D00968C95 /* ChangeLog */; };
@@ -394,6 +399,7 @@
 		5A04FB132147958100569462 /* MecabCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MecabCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A04FB152147958100569462 /* MecabCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MecabCocoaTests.swift; sourceTree = "<group>"; };
 		5A04FB172147958100569462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+FormattedHTML.swift"; sourceTree = "<group>"; };
 		B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7018AA41B0EF4A900A8D9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaNoDictionaries.h; sourceTree = "<group>"; };
@@ -645,6 +651,7 @@
 		B797FD651AA55F0200968C95 /* MecabCocoaTouch */ = {
 			isa = PBXGroup;
 			children = (
+				5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */,
 				B797FD681AA55F0200968C95 /* MecabCocoaTouch.h */,
 				B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */,
 				B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */,
@@ -1247,6 +1254,7 @@
 				B7018AD91B0EF4FF00A8D9AE /* feature_index.cpp in Sources */,
 				B7018AD81B0EF4FF00A8D9AE /* eval.cpp in Sources */,
 				B7018AC51B0EF4D800A8D9AE /* MecabTokenizer.m in Sources */,
+				5A123784223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */,
 				B7018ACF1B0EF4FF00A8D9AE /* context_id.cpp in Sources */,
 				B7018AD61B0EF4FF00A8D9AE /* dictionary.cpp in Sources */,
 				B7018AF71B0EF4FF00A8D9AE /* tagger.cpp in Sources */,
@@ -1281,6 +1289,7 @@
 				B73B06ED1ACEDDEB009E07E5 /* feature_index.cpp in Sources */,
 				B73B06EC1ACEDDEB009E07E5 /* eval.cpp in Sources */,
 				B73B06D71ACEDD68009E07E5 /* MecabTokenizer.m in Sources */,
+				5A123783223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */,
 				B73B06E21ACEDDEB009E07E5 /* context_id.cpp in Sources */,
 				B73B06EA1ACEDDEB009E07E5 /* dictionary.cpp in Sources */,
 				B73B070F1ACEDDEB009E07E5 /* tagger.cpp in Sources */,
@@ -1315,6 +1324,7 @@
 				B74EF29D1D7E73A500D8654D /* feature_index.cpp in Sources */,
 				B74EF29E1D7E73A500D8654D /* eval.cpp in Sources */,
 				B74EF29F1D7E73A500D8654D /* MecabTokenizer.m in Sources */,
+				5A123785223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */,
 				B74EF2A01D7E73A500D8654D /* context_id.cpp in Sources */,
 				B74EF2A11D7E73A500D8654D /* dictionary.cpp in Sources */,
 				B74EF2A21D7E73A500D8654D /* tagger.cpp in Sources */,
@@ -1349,6 +1359,7 @@
 				B75CC7C81ACB90D500000EAD /* feature_index.cpp in Sources */,
 				B75CC7C71ACB90D500000EAD /* eval.cpp in Sources */,
 				B75CC7B21ACB907B00000EAD /* MecabTokenizer.m in Sources */,
+				5A123782223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */,
 				B75CC7BD1ACB90D500000EAD /* context_id.cpp in Sources */,
 				B75CC7C51ACB90D500000EAD /* dictionary.cpp in Sources */,
 				B75CC7EA1ACB90D500000EAD /* tagger.cpp in Sources */,
@@ -1383,6 +1394,7 @@
 				B797FE121AA55FD500968C95 /* MecabToken.m in Sources */,
 				B797FE031AA55F2E00968C95 /* writer.cpp in Sources */,
 				B797FDD11AA55F2E00968C95 /* dictionary_rewriter.cpp in Sources */,
+				5A123781223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */,
 				B797FE131AA55FD500968C95 /* NSString+Mecab.m in Sources */,
 				B797FDD31AA55F2E00968C95 /* dictionary.cpp in Sources */,
 				B797FDF61AA55F2E00968C95 /* string_buffer.cpp in Sources */,
@@ -1412,6 +1424,7 @@
 		5A04FB1B2147958100569462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1446,6 +1459,7 @@
 		5A04FB1C2147958100569462 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1499,6 +1513,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1529,6 +1544,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1552,6 +1568,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouchNoDictionaries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1574,6 +1591,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouchNoDictionaries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1603,6 +1621,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1629,6 +1648,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1653,6 +1673,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1678,6 +1699,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1811,6 +1833,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1836,6 +1859,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
