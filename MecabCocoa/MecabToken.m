@@ -165,21 +165,21 @@
     switch (self.dictionary) {
         case jumandic:
             if (!self.features || [self.features count] < 5) {
-                return nil;
+                return self.surface;
             }
             return [self.features objectAtIndex:4];
             break;
         case ipadic:
         case naist_jdic:
             if (!self.features || [self.features count] < 7) {
-                return nil;
+                return self.surface;
             }
             return [self.features objectAtIndex:6];
             break;
             
         case unidic:
             if (!self.features || [self.features count] < 7) {
-                return nil;
+                return self.surface;
             }
             return [self.features objectAtIndex:7];
             
@@ -188,7 +188,7 @@
             break;
     }
     
-    return nil;
+    return self.surface;
 }
 
 - (NSString *)reading {

@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5A04FB162147958100569462 /* MecabCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A04FB152147958100569462 /* MecabCocoaTests.swift */; };
 		5A04FB182147958100569462 /* MecabCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7931ACB905200000EAD /* MecabCocoa.framework */; };
+		5A123781223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
+		5A123782223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
+		5A123783223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
+		5A123784223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
+		5A123785223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
 		5A5339CB2166FD1B000672E2 /* MecabCocoaTouchIPADic.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5339CA2166FD0A000672E2 /* MecabCocoaTouchIPADic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AD744522166F8A30030F2EE /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB31AA55F2D00968C95 /* string_buffer.cpp */; };
 		5AD744532166F8A30030F2EE /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAB1AA55F2D00968C95 /* nbest_generator.cpp */; };
@@ -82,11 +87,6 @@
 		5AD7449B2166F8A30030F2EE /* LGPL in Resources */ = {isa = PBXBuildFile; fileRef = B797FD9F1AA55F2D00968C95 /* LGPL */; };
 		5AD7449C2166F8A30030F2EE /* NEWS in Resources */ = {isa = PBXBuildFile; fileRef = B797FDAD1AA55F2D00968C95 /* NEWS */; };
 		5AD7449D2166F8A30030F2EE /* README in Resources */ = {isa = PBXBuildFile; fileRef = B797FDB01AA55F2D00968C95 /* README */; };
-		5A123781223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
-		5A123782223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
-		5A123783223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
-		5A123784223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
-		5A123785223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
 		B7018ABA1B0EF4C300A8D9AE /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
 		B7018ABB1B0EF4C300A8D9AE /* BSD in Resources */ = {isa = PBXBuildFile; fileRef = B797FD811AA55F2D00968C95 /* BSD */; };
 		B7018ABC1B0EF4C300A8D9AE /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = B797FD821AA55F2D00968C95 /* ChangeLog */; };
@@ -472,9 +472,9 @@
 		5A04FB132147958100569462 /* MecabCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MecabCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A04FB152147958100569462 /* MecabCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MecabCocoaTests.swift; sourceTree = "<group>"; };
 		5A04FB172147958100569462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+FormattedHTML.swift"; sourceTree = "<group>"; };
 		5A5339CA2166FD0A000672E2 /* MecabCocoaTouchIPADic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaTouchIPADic.h; sourceTree = "<group>"; };
 		5AD744A12166F8A30030F2EE /* MecabCocoaTouchIPADic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouchIPADic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+FormattedHTML.swift"; sourceTree = "<group>"; };
 		B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7018AA41B0EF4A900A8D9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaNoDictionaries.h; sourceTree = "<group>"; };
@@ -1233,7 +1233,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Morten Bertz";
 				TargetAttributes = {
 					5A04FB122147958100569462 = {
@@ -2071,7 +2071,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
@@ -2097,7 +2097,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
