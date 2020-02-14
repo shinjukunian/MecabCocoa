@@ -12,12 +12,12 @@
 		<key>MecabCocoaIPADic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>MecabCocoaNoDictionaries.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 		<key>MecabCocoaTests.xcscheme</key>
 		<dict>
@@ -27,7 +27,7 @@
 		<key>MecabCocoaTouch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
 		</dict>
 		<key>MecabCocoaTouchIPADic.xcscheme_^#shared#^_</key>
 		<dict>
