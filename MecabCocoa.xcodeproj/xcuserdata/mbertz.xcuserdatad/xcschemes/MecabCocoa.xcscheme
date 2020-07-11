@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "1200"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B75CC79C1ACB905200000EAD"
+               BlueprintIdentifier = "5A04FB122147958100569462"
                BuildableName = "MecabCocoaTests.xctest"
                BlueprintName = "MecabCocoaTests"
                ReferencedContainer = "container:MecabCocoa.xcodeproj">
@@ -46,24 +46,13 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B75CC79C1ACB905200000EAD"
+               BlueprintIdentifier = "5A04FB122147958100569462"
                BuildableName = "MecabCocoaTests.xctest"
                BlueprintName = "MecabCocoaTests"
                ReferencedContainer = "container:MecabCocoa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B75CC7921ACB905200000EAD"
-            BuildableName = "MecabCocoa.framework"
-            BlueprintName = "MecabCocoa"
-            ReferencedContainer = "container:MecabCocoa.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -84,8 +73,6 @@
             ReferencedContainer = "container:MecabCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
