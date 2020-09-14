@@ -102,6 +102,29 @@ class MecabCocoaTests: XCTestCase {
     }
     
     
+    func testFormattedExport(){
+        let string = """
+        ウィキ（Wiki）とは、不特定多数のユーザーが共同してウェブブラウザから直接コンテンツを編集するウェブサイトである。一般的なウィキにおいては、コンテンツはマークアップ言語によって記述されるか、リッチテキストエディタによって編集される[1]。
+        ウィキはウィキソフトウェア（ウィキエンジンとも呼ばれる）上で動作する。ウィキソフトウェアはコンテンツ管理システムの一種であるが、サイト所有者や特定のユーザーによってコンテンツが作られるわけではないという点において、ブログなど他のコンテンツ管理システムとは異なる。またウィキには固まったサイト構造というものはなく、サイトユーザーのニーズに沿って様々にサイト構造を作り上げることが可能であり、そうした点でも他のシステムとは異なっている[2]。
+"""
+
+        let tokens=(string as NSString).furiganaReplacements(for: .iOSTokenizer)
+        let att=NSMutableAttributedString(string: string)
+        let furiganaAttribute=NSAttributedString.Key(kCTRubyAnnotationAttributeName as String)
+        for token in tokens{
+            let ruby=CTRubyAnnotationCreateWithAttributes(.auto, .auto, .before, token.value as CFString, [:] as CFDictionary)
+            att.addAttribute(furiganaAttribute, value: ruby, range: token.key.rangeValue)
+        }
+        let html=try! att.annotatedRubyHTML()
+        XCTAssert(html.isEmpty == false)
+        
+        
+        
+    }
+    
+    
+    
+    
     
 
     func testPerformanceExample() {

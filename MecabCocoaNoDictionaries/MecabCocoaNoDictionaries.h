@@ -16,8 +16,8 @@ FOUNDATION_EXPORT const unsigned char MecabCocoaNoDictionariesVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MecabCocoaNoDictionaries/PublicHeader.h>
 
-#import "MecabToken.h"
-#import "NSString+Mecab.h"
-#import "MecabTokenizer.h"
-#import "NSCharacterSet+Japanese.h"
+#import <MecabCocoaNoDictionaries/MecabToken.h>
+#import <MecabCocoaNoDictionaries/NSString+Mecab.h>
+#import <MecabCocoaNoDictionaries/MecabTokenizer.h>
+#import <MecabCocoaNoDictionaries/NSCharacterSet+Japanese.h>
 

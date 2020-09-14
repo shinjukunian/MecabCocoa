@@ -15,6 +15,7 @@
 		5A123784223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
 		5A123785223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
 		5A5339CB2166FD1B000672E2 /* MecabCocoaTouchIPADic.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5339CA2166FD0A000672E2 /* MecabCocoaTouchIPADic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5C441324D7B7F500BB180B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5C441224D7B7BB00BB180B /* libiconv.tbd */; };
 		5AD744522166F8A30030F2EE /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB31AA55F2D00968C95 /* string_buffer.cpp */; };
 		5AD744532166F8A30030F2EE /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAB1AA55F2D00968C95 /* nbest_generator.cpp */; };
 		5AD744542166F8A30030F2EE /* learner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9E1AA55F2D00968C95 /* learner.cpp */; };
@@ -239,7 +240,6 @@
 		B73B07191ACEDDEB009E07E5 /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
 		B73B071A1ACEDDEB009E07E5 /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B73B071B1ACEDDEB009E07E5 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
-		B73B071C1ACEDE58009E07E5 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FE061AA55F8100968C95 /* libiconv.dylib */; };
 		B74EF2911D7E73A500D8654D /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB31AA55F2D00968C95 /* string_buffer.cpp */; };
 		B74EF2921D7E73A500D8654D /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAB1AA55F2D00968C95 /* nbest_generator.cpp */; };
 		B74EF2931D7E73A500D8654D /* learner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9E1AA55F2D00968C95 /* learner.cpp */; };
@@ -447,7 +447,6 @@
 		B797FE021AA55F2E00968C95 /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
 		B797FE031AA55F2E00968C95 /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B797FE041AA55F2E00968C95 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
-		B797FE071AA55F8200968C95 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B797FE061AA55F8100968C95 /* libiconv.dylib */; };
 		B797FE101AA55FD500968C95 /* NSCharacterSet+Japanese.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B797FE111AA55FD500968C95 /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		B797FE121AA55FD500968C95 /* MecabToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE0A1AA55FD500968C95 /* MecabToken.m */; };
@@ -474,6 +473,7 @@
 		5A04FB172147958100569462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+FormattedHTML.swift"; sourceTree = "<group>"; };
 		5A5339CA2166FD0A000672E2 /* MecabCocoaTouchIPADic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaTouchIPADic.h; sourceTree = "<group>"; };
+		5A5C441224D7B7BB00BB180B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
 		5AD744A12166F8A30030F2EE /* MecabCocoaTouchIPADic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouchIPADic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7018AA41B0EF4A900A8D9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -561,7 +561,6 @@
 		B797FDBF1AA55F2E00968C95 /* viterbisub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viterbisub.h; sourceTree = "<group>"; };
 		B797FDC01AA55F2E00968C95 /* writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = writer.cpp; sourceTree = "<group>"; };
 		B797FDC11AA55F2E00968C95 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
-		B797FE061AA55F8100968C95 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		B797FE081AA55FD500968C95 /* NSCharacterSet+Japanese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+Japanese.h"; sourceTree = "<group>"; };
 		B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+Japanese.m"; sourceTree = "<group>"; };
 		B797FE0A1AA55FD500968C95 /* MecabToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MecabToken.m; sourceTree = "<group>"; };
@@ -601,7 +600,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B73B071C1ACEDE58009E07E5 /* libiconv.dylib in Frameworks */,
+				5A5C441324D7B7F500BB180B /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +624,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B797FE071AA55F8200968C95 /* libiconv.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +637,14 @@
 				5A04FB172147958100569462 /* Info.plist */,
 			);
 			path = MecabCocoaTests;
+			sourceTree = "<group>";
+		};
+		5A5C441124D7B7BB00BB180B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A5C441224D7B7BB00BB180B /* libiconv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B7018AA21B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */ = {
@@ -715,6 +721,7 @@
 				B7018AA21B0EF4A900A8D9AE /* MecabCocoaNoDictionaries */,
 				5A04FB142147958100569462 /* MecabCocoaTests */,
 				B797FD641AA55F0200968C95 /* Products */,
+				5A5C441124D7B7BB00BB180B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -746,7 +753,6 @@
 				B797FE0B1AA55FD500968C95 /* NSString+Mecab.m */,
 				B797FE0F1AA55FD500968C95 /* MecabTokenizer.h */,
 				B797FE0D1AA55FD500968C95 /* MecabTokenizer.m */,
-				B797FE061AA55F8100968C95 /* libiconv.dylib */,
 				B797FE051AA55F3300968C95 /* src */,
 				B797FD661AA55F0200968C95 /* Supporting Files */,
 			);
