@@ -65,9 +65,9 @@
             filePath = "MecabCocoa/NSAttributedString+FormattedHTML.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "annotatedRubyHTML()"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "annotatedRubyHTML(options:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -113,25 +113,9 @@
             filePath = "MecabCocoa/NSAttributedString+FormattedHTML.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "annotatedRubyHTML()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BE02549A-B638-490D-BCDC-A39F32637733"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MecabCocoa/NSAttributedString+FormattedHTML.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "annotatedRubyHTML()"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "annotatedRubyHTML(options:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
