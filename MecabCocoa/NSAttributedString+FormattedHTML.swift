@@ -19,8 +19,14 @@ enum HTMLEncodingErrors:Error{
 
 extension NSAttributedString{
     
-    @objc public func annotatedRubyHTML() throws -> String{
-        let data = try self.data(from: NSRange(location: 0, length: self.length), documentAttributes: [NSAttributedString.DocumentAttributeKey.documentType : NSAttributedString.DocumentType.html])
+    @objc public func annotatedRubyHTML(options: [NSAttributedString.DocumentAttributeKey:Any]? = nil) throws -> String{
+        var documentOptions:[NSAttributedString.DocumentAttributeKey:Any] = [NSAttributedString.DocumentAttributeKey.documentType : NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue]
+        
+        if let options = options {
+            documentOptions.merge(options, uniquingKeysWith: {first, _ in return first})
+        }
+        
+        let data = try self.data(from: NSRange(location: 0, length: self.length), documentAttributes: documentOptions)
         guard var htmlString=String(data: data, encoding: .utf8) else{
             throw HTMLEncodingErrors.failedEncoding
         }

@@ -11,7 +11,7 @@
 
 @interface MecabTokenizer : NSObject
 
-typedef NS_ENUM(NSUInteger, dictionaryType){
+typedef NS_ENUM(NSInteger, dictionaryType){
     iOSTokenizer=0,
     ipadic,
     jumandic,
