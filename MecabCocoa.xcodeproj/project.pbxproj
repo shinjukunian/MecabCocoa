@@ -15,7 +15,13 @@
 		5A123784223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
 		5A123785223A417000B589DF /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
 		5A5339CB2166FD1B000672E2 /* MecabCocoaTouchIPADic.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5339CA2166FD0A000672E2 /* MecabCocoaTouchIPADic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A5C441324D7B7F500BB180B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5C441224D7B7BB00BB180B /* libiconv.tbd */; };
+		5AC491A827C71438004AA6D5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC491A727C71438004AA6D5 /* libiconv.tbd */; };
+		5AC491A927C71445004AA6D5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC491A727C71438004AA6D5 /* libiconv.tbd */; };
+		5AC491AA27C71453004AA6D5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC491A727C71438004AA6D5 /* libiconv.tbd */; };
+		5AC491AB27C71458004AA6D5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC491A727C71438004AA6D5 /* libiconv.tbd */; };
+		5AC491AC27C7145B004AA6D5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC491A727C71438004AA6D5 /* libiconv.tbd */; };
+		5AC491AD27C7145F004AA6D5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC491A727C71438004AA6D5 /* libiconv.tbd */; };
+		5AC491AE27C71527004AA6D5 /* NSAttributedString+FormattedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */; };
 		5AD744522166F8A30030F2EE /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDB31AA55F2D00968C95 /* string_buffer.cpp */; };
 		5AD744532166F8A30030F2EE /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAB1AA55F2D00968C95 /* nbest_generator.cpp */; };
 		5AD744542166F8A30030F2EE /* learner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD9E1AA55F2D00968C95 /* learner.cpp */; };
@@ -43,7 +49,6 @@
 		5AD7446A2166F8A30030F2EE /* char_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD831AA55F2D00968C95 /* char_property.cpp */; };
 		5AD7446B2166F8A30030F2EE /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		5AD7446C2166F8A30030F2EE /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAE1AA55F2D00968C95 /* param.cpp */; };
-		5AD7446E2166F8A30030F2EE /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
 		5AD744702166F8A30030F2EE /* ucs.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB91AA55F2D00968C95 /* ucs.h */; };
 		5AD744712166F8A30030F2EE /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
 		5AD744722166F8A30030F2EE /* dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD911AA55F2D00968C95 /* dictionary.h */; };
@@ -158,7 +163,6 @@
 		B7018B021B0EF4FF00A8D9AE /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B7018B031B0EF4FF00A8D9AE /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
 		B7018B041B0EF50500A8D9AE /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
-		B7018B051B0EF5A300A8D9AE /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
 		B70ECE2C1D812BD100E11825 /* MecabCocoaNoDictionaries.h in Headers */ = {isa = PBXBuildFile; fileRef = B7018AA51B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B723103E1ACEE04E00DECF0B /* MecabCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B723103D1ACEE04E00DECF0B /* MecabCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B72310441ACEE0BD00DECF0B /* unidic in Resources */ = {isa = PBXBuildFile; fileRef = B72310401ACEE0BD00DECF0B /* unidic */; };
@@ -267,7 +271,6 @@
 		B74EF2A91D7E73A500D8654D /* char_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FD831AA55F2D00968C95 /* char_property.cpp */; };
 		B74EF2AA1D7E73A500D8654D /* NSCharacterSet+Japanese.m in Sources */ = {isa = PBXBuildFile; fileRef = B797FE091AA55FD500968C95 /* NSCharacterSet+Japanese.m */; };
 		B74EF2AB1D7E73A500D8654D /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDAE1AA55F2D00968C95 /* param.cpp */; };
-		B74EF2AD1D7E73A500D8654D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
 		B74EF2AF1D7E73A500D8654D /* ucs.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDB91AA55F2D00968C95 /* ucs.h */; };
 		B74EF2B01D7E73A500D8654D /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
 		B74EF2B11D7E73A500D8654D /* dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD911AA55F2D00968C95 /* dictionary.h */; };
@@ -383,7 +386,6 @@
 		B75CC7F41ACB90D500000EAD /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDBF1AA55F2E00968C95 /* viterbisub.h */; };
 		B75CC7F51ACB90D500000EAD /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B797FDC01AA55F2E00968C95 /* writer.cpp */; };
 		B75CC7F61ACB90D500000EAD /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FDC11AA55F2E00968C95 /* writer.h */; };
-		B75CC7FC1ACB915300000EAD /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CC7FB1ACB915300000EAD /* libiconv.dylib */; };
 		B797FD691AA55F0200968C95 /* MecabCocoaTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD681AA55F0200968C95 /* MecabCocoaTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B797FDC21AA55F2E00968C95 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B797FD7F1AA55F2D00968C95 /* config.h */; };
 		B797FDC31AA55F2E00968C95 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B797FD801AA55F2D00968C95 /* AUTHORS */; };
@@ -473,7 +475,7 @@
 		5A04FB172147958100569462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A123780223A416F00B589DF /* NSAttributedString+FormattedHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+FormattedHTML.swift"; sourceTree = "<group>"; };
 		5A5339CA2166FD0A000672E2 /* MecabCocoaTouchIPADic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaTouchIPADic.h; sourceTree = "<group>"; };
-		5A5C441224D7B7BB00BB180B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
+		5AC491A727C71438004AA6D5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
 		5AD744A12166F8A30030F2EE /* MecabCocoaTouchIPADic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouchIPADic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7018AA11B0EF4A900A8D9AE /* MecabCocoaNoDictionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaNoDictionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7018AA41B0EF4A900A8D9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -490,7 +492,6 @@
 		B74EF3131D7E7D0700D8654D /* MecabCocoaIPADic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MecabCocoaIPADic.h; sourceTree = "<group>"; };
 		B75CC7931ACB905200000EAD /* MecabCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75CC7961ACB905200000EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B75CC7FB1ACB915300000EAD /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		B797FD631AA55F0200968C95 /* MecabCocoaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MecabCocoaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B797FD671AA55F0200968C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B797FD681AA55F0200968C95 /* MecabCocoaTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MecabCocoaTouch.h; sourceTree = "<group>"; };
@@ -584,7 +585,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AD7446E2166F8A30030F2EE /* libiconv.dylib in Frameworks */,
+				5AC491AD27C7145F004AA6D5 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,7 +593,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7018B051B0EF5A300A8D9AE /* libiconv.dylib in Frameworks */,
+				5AC491AB27C71458004AA6D5 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,7 +601,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A5C441324D7B7F500BB180B /* libiconv.tbd in Frameworks */,
+				5AC491AA27C71453004AA6D5 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,7 +609,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74EF2AD1D7E73A500D8654D /* libiconv.dylib in Frameworks */,
+				5AC491AC27C7145B004AA6D5 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,7 +617,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75CC7FC1ACB915300000EAD /* libiconv.dylib in Frameworks */,
+				5AC491A827C71438004AA6D5 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +625,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC491A927C71445004AA6D5 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +644,7 @@
 		5A5C441124D7B7BB00BB180B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A5C441224D7B7BB00BB180B /* libiconv.tbd */,
+				5AC491A727C71438004AA6D5 /* libiconv.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -697,7 +699,6 @@
 			children = (
 				B74EF3131D7E7D0700D8654D /* MecabCocoaIPADic.h */,
 				B723103D1ACEE04E00DECF0B /* MecabCocoa.h */,
-				B75CC7FB1ACB915300000EAD /* libiconv.dylib */,
 				B75CC7951ACB905200000EAD /* Supporting Files */,
 			);
 			path = MecabCocoa;
@@ -1245,6 +1246,7 @@
 					5A04FB122147958100569462 = {
 						CreatedOnToolsVersion = 10.0;
 						DevelopmentTeam = DVQ96RL2KL;
+						LastSwiftMigration = 1320;
 						ProvisioningStyle = Automatic;
 					};
 					B7018AA01B0EF4A900A8D9AE = {
@@ -1423,6 +1425,7 @@
 				5AD7445E2166F8A30030F2EE /* feature_index.cpp in Sources */,
 				5AD7445F2166F8A30030F2EE /* eval.cpp in Sources */,
 				5AD744602166F8A30030F2EE /* MecabTokenizer.m in Sources */,
+				5AC491AE27C71527004AA6D5 /* NSAttributedString+FormattedHTML.swift in Sources */,
 				5AD744612166F8A30030F2EE /* context_id.cpp in Sources */,
 				5AD744622166F8A30030F2EE /* dictionary.cpp in Sources */,
 				5AD744632166F8A30030F2EE /* tagger.cpp in Sources */,
@@ -1655,7 +1658,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1684,7 +1687,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1709,12 +1712,13 @@
 				);
 				INFOPLIST_FILE = MecabCocoa/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouchIPADic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1736,12 +1740,13 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = MecabCocoa/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouchIPADic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1824,6 +1829,7 @@
 				);
 				INFOPLIST_FILE = MecabCocoaTouchNoDictionaries/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouchNoDictionaries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1847,6 +1853,7 @@
 				);
 				INFOPLIST_FILE = MecabCocoaTouchNoDictionaries/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouchNoDictionaries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1915,6 +1922,7 @@
 		B75CC7A71ACB905200000EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1940,6 +1948,7 @@
 		B75CC7A81ACB905200000EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2089,12 +2098,11 @@
 				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
 				INFOPLIST_FILE = MecabCocoa/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				STRIP_STYLE = "non-global";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -2115,12 +2123,11 @@
 				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
 				INFOPLIST_FILE = MecabCocoa/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.MecabCocoaTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				STRIP_STYLE = "non-global";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for MecabCocoa.
 FOUNDATION_EXPORT double MecabCocoaVersionNumber;
