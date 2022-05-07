@@ -1129,9 +1129,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AD7449E2166F8A30030F2EE /* Build configuration list for PBXNativeTarget "MecabCocoaTouchIPADic" */;
 			buildPhases = (
+				5AD7446F2166F8A30030F2EE /* Headers */,
 				5AD744512166F8A30030F2EE /* Sources */,
 				5AD7446D2166F8A30030F2EE /* Frameworks */,
-				5AD7446F2166F8A30030F2EE /* Headers */,
 				5AD744942166F8A30030F2EE /* Resources */,
 			);
 			buildRules = (
@@ -1147,9 +1147,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7018AB81B0EF4A900A8D9AE /* Build configuration list for PBXNativeTarget "MecabCocoaNoDictionaries" */;
 			buildPhases = (
+				B7018A9E1B0EF4A900A8D9AE /* Headers */,
 				B7018A9C1B0EF4A900A8D9AE /* Sources */,
 				B7018A9D1B0EF4A900A8D9AE /* Frameworks */,
-				B7018A9E1B0EF4A900A8D9AE /* Headers */,
 				B7018A9F1B0EF4A900A8D9AE /* Resources */,
 			);
 			buildRules = (
@@ -1165,9 +1165,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B73B06CA1ACEDD4C009E07E5 /* Build configuration list for PBXNativeTarget "MecabCocoaTouchNoDictionaries" */;
 			buildPhases = (
+				B73B06B41ACEDD4C009E07E5 /* Headers */,
 				B73B06B21ACEDD4C009E07E5 /* Sources */,
 				B73B06B31ACEDD4C009E07E5 /* Frameworks */,
-				B73B06B41ACEDD4C009E07E5 /* Headers */,
 				B73B06B51ACEDD4C009E07E5 /* Resources */,
 			);
 			buildRules = (
@@ -1183,9 +1183,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B74EF2DC1D7E73A500D8654D /* Build configuration list for PBXNativeTarget "MecabCocoaIPADic" */;
 			buildPhases = (
+				B74EF2AE1D7E73A500D8654D /* Headers */,
 				B74EF2901D7E73A500D8654D /* Sources */,
 				B74EF2AC1D7E73A500D8654D /* Frameworks */,
-				B74EF2AE1D7E73A500D8654D /* Headers */,
 				B74EF2D31D7E73A500D8654D /* Resources */,
 			);
 			buildRules = (
@@ -1201,9 +1201,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B75CC7A61ACB905200000EAD /* Build configuration list for PBXNativeTarget "MecabCocoa" */;
 			buildPhases = (
+				B75CC7901ACB905200000EAD /* Headers */,
 				B75CC78E1ACB905200000EAD /* Sources */,
 				B75CC78F1ACB905200000EAD /* Frameworks */,
-				B75CC7901ACB905200000EAD /* Headers */,
 				B75CC7911ACB905200000EAD /* Resources */,
 			);
 			buildRules = (
@@ -1219,9 +1219,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B797FD791AA55F0300968C95 /* Build configuration list for PBXNativeTarget "MecabCocoaTouch" */;
 			buildPhases = (
+				B797FD601AA55F0200968C95 /* Headers */,
 				B797FD5E1AA55F0200968C95 /* Sources */,
 				B797FD5F1AA55F0200968C95 /* Frameworks */,
-				B797FD601AA55F0200968C95 /* Headers */,
 				B797FD611AA55F0200968C95 /* Resources */,
 			);
 			buildRules = (
