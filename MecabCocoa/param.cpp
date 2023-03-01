@@ -216,8 +216,10 @@ bool Param::open(const char *arg, const Option *opts) {
             str.replace(f, std::string("%20").length(), " ");
             f=str.find("%20");
         }
-        char *file= new char[str.size()+1];
-        sprintf(file, "%s",str.c_str());
+        size_t size=str.size()+1;
+        char *file= new char[size];
+        snprintf(file, size, "%s", str.c_str());
+//        sprintf(file, "%s",);
           //  std::copy(str.begin(), str.end(), file);
 #ifdef DEBUG
           printf("file: %s\n",file);

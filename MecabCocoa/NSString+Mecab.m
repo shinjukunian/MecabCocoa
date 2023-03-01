@@ -29,8 +29,9 @@
 
 
 -(NSArray*)lexicalFormsForDictionary:(dictionaryType)dictionary atPath:(NSString*)path{
-    
-    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:path type:dictionary];
+    NSString *escaped=[path stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLPathAllowedCharacterSet]];
+
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:escaped type:dictionary];
     NSMutableArray *lexicalForms=[NSMutableArray array];
     for (MecabToken *token in tokens) {
         NSString *lexicalForm=[token originalForm];
@@ -96,8 +97,9 @@
 }
 
 -(NSDictionary*)furiganaReplacementsForDictionaryatPath:(NSString*)path type:(dictionaryType)type{
+    NSString *escaped=[path stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLPathAllowedCharacterSet]];
     
-    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:path type:type];
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:escaped type:type];
     NSMutableDictionary *furiganaReplacements=[NSMutableDictionary dictionary];
     NSRange lastTokenRange=NSMakeRange(0, self.length);
     for (MecabToken *token in tokens) {
@@ -159,8 +161,9 @@
 
 
 -(NSString*)hiraganaStringWithDictionaryatPath:(NSString*)path type:(dictionaryType)type{
-    
-    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:path type:type];
+    NSString *escaped=[path stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLPathAllowedCharacterSet]];
+
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:escaped type:type];
     NSMutableString *hiraganaString=[self mutableCopy];
     NSRange lastTokenRange=NSMakeRange(0, self.length);
     for (MecabToken *token in tokens) {
@@ -318,7 +321,9 @@
 
 
 -(NSString*)romajiStringWithDictionaryatPath:(NSString*)path type:(dictionaryType)type{
-    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:path type:type];
+    NSString *escaped=[path stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLPathAllowedCharacterSet]];
+
+    NSArray *tokens=[[MecabTokenizer alloc]parseToNodeWithString:self withDictionaryAtLocation:escaped type:type];
     NSMutableString *hiraganaString=[NSMutableString string];
 
     for (MecabToken *token in tokens) {
